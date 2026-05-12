@@ -1,17 +1,23 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'NOMBRE DEL COMPONENTE FORMATIVO	Buenas Prácticas de Manufactura BPM, empaque de s y elaboración de derivados lácteos.',
+    Description:
+      'BREVE DESCRIPCIÓN	Este componente formativo aborda los fundamentos para la producción de derivados lácteos fermentados, integrando Buenas Prácticas de Manufactura (BPM), higiene, seguridad industrial y uso adecuado de envases. Incluye procesos tecnológicos para elaborar productos como yogur, kumis y mantequilla, junto con la normatividad colombiana, puntos críticos de control y técnicas de verificación para asegurar la inocuidad y calidad.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -58,12 +64,6 @@ export default {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
         desarrolloContenidos: true,
       },
     ],

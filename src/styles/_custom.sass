@@ -1,46 +1,88 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 15%
+    right: 18%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
+    
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 28%
+    right: 84%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
+    
+  &-3
+    position: absolute
+    top: 71%
+    right: 38%
+    width: 75px
+    animation: orbitPerfect 12s linear infinite
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 15%
+      right: 15%
+      width: 110px
+    &-2
+      top: 28%
+      right: 84%
+      width: 100px
+    &-3
+      top: 72%
+      right: 35%
+      width: 110px
+
+@keyframes orbitPerfect
+  from
+    transform: rotate(0deg) translateX(12px) rotate(0deg)
+  to
+    transform: rotate(360deg) translateX(12px) rotate(-360deg)
+    
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
-
-figcaption
-  font-weight: normal
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+  
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  width: 510px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
 .banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+  background-position: left 50% !important
+  @media screen and (max-width: 769px)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-sm.png) !important
+  @media screen and (max-width: 430px)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-xs.png) !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white!important
+
+.banner-interno__titulo__icono i
+  color: $white
+
+.banner-interno__titulo__icono 
+  background: $color-primario
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto
+ 
+.barra-avance__boton--regresar span
+  color: $color-sistema-texto !important
+
+figcaption
+  font-weight: normal
