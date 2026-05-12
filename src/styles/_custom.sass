@@ -1,39 +1,39 @@
 .banner-principal-decorativo
   &-1
     position: absolute
-    top: 15%
-    right: 18%
+    top: 28%
+    right: 40%
     width: 80px
     animation: orbitPerfect 12s linear infinite
     
   &-2
     position: absolute
-    top: 28%
+    top: 82%
     right: 84%
     width: 80px
     animation: orbitPerfect 12s linear infinite
     
   &-3
     position: absolute
-    top: 71%
-    right: 38%
-    width: 75px
+    top: 65%
+    right: 5%
+    width: 80px
     animation: orbitPerfect 12s linear infinite
 
 @media (min-width: 1025px)
   .banner-principal-decorativo
     &-1
-      top: 15%
-      right: 15%
-      width: 110px
+      top: 11%
+      right: 40%
+      width: 100px
     &-2
-      top: 28%
+      top: 77%
       right: 84%
       width: 100px
     &-3
-      top: 72%
-      right: 35%
-      width: 110px
+      top: 58%
+      right: 2%
+      width: 100px
 
 @keyframes orbitPerfect
   from
@@ -56,7 +56,11 @@
 
 .banner-principal__row .banner-principal__img
   width: 510px !important
+  padding-top: 5rem !important
+  padding-bottom: 0 !important
   @media screen and (max-width: $bp-max-xl)
+    padding-top: 10rem !important
+    padding-bottom: 0 !important
     width: 400px !important
 
 .banner-principal .tarjeta
@@ -70,7 +74,7 @@
   color: $color-sistema-texto
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white!important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
   color: $white
@@ -86,3 +90,80 @@
 
 figcaption
   font-weight: normal
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+
+
+
+
+
+
+
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/introduccion/img_1.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_3.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none

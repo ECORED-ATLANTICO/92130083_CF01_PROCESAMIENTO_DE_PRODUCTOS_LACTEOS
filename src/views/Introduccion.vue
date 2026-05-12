@@ -10,22 +10,22 @@
     
     .bg_img_1.mb-0
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-8.order-2.order-lg-1
-          p.mb-3(data-aos="zoom-in-right") El componente formativo Diseño y control del plan de <em>marketing</em> aborda la estructuración operativa de las decisiones comerciales, orientando la formulación de objetivos, estrategias y tácticas en coherencia con los recursos organizacionales y las condiciones del entorno. Su enfoque se centra en la articulación entre planificación, ejecución y control, como elementos fundamentales para garantizar la efectividad del desempeño comercial.
-          .tarjeta.tarjeta--fondo-img-1.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-            .row.justify-content-center.align-items-center.mb-0
-              .col-lg-2.d-lg-block.d-none(data-aos="zoom-in-right")
-                figure
-                  img(src='@/assets/curso/introduccion/img_2.svg', class="img-fluid") 
-              .col-12.col-lg-10.mb-0(data-aos="zoom-in-right")
-                p.mb-0 Su importancia radica en que permite materializar el direccionamiento estratégico en acciones concretas, medibles y evaluables, integrando herramientas para la asignación de recursos, la programación de actividades y la definición de indicadores de gestión. De esta manera, se facilita el seguimiento del plan de <em>marketing</em> y la toma de decisiones basada en resultados en contextos empresariales dinámicos.
-        .col-8.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/introduccion/img_2.svg', class="img-fluid")
+          .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+            p.mb-0 Este componente formativo orienta al aprendiz en la elaboración de derivados lácteos, integrando la aplicación de las Buenas Prácticas de Manufactura (BPM) para garantizar productos inocuos y de calidad.
+  
+      .row.justify-content-center.align-items-center.mb-0
+        .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/introduccion/img_3.png', class="img-fluid")
-    
-      .tarjeta.color-primario-5.p-4.rounded-4.mb-5(data-aos="zoom-in-right")
-        p.mb-0 El desarrollo temático se abordará de manera progresiva, iniciando con la formulación de objetivos, estrategias y tácticas, seguido de la planificación operativa mediante presupuestos y cronogramas. Posteriormente, se incorporan los índices de gestión, la auditoría de <em>marketing</em> y la mejora continua, consolidando un enfoque integral orientado al diseño, ejecución y control del plan de <em>marketing</em>.
+        .col-12.col-lg-8
+          p.mb-3(data-aos="zoom-in-right") Durante el proceso, se abordarán aspectos clave como la higiene en la manipulación de alimentos, las condiciones sanitarias, el uso adecuado de envases y el cumplimiento de la normatividad colombiana vigente. Asimismo, se desarrollarán de manera práctica los procesos de elaboración de productos como yogur, kumis, suero costeño, arequipe, manjar blanco, panelitas y mantequilla.
+          .cajon.color-primario.p-4(data-aos="zoom-in-right")
+            p.mb-0 La formación tiene un enfoque principalmente práctico, permitiendo al aprendiz aplicar los conocimientos en situaciones reales de producción. Al finalizar, estará en capacidad de elaborar derivados lácteos cumpliendo con condiciones de calidad, seguridad e inocuidad.
 
       br
       br
