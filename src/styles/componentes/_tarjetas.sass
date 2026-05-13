@@ -309,15 +309,27 @@
 
   &--01::before
     position: absolute
-    //content: url('../assets/curso/tema1/img_9.svg')
+    content: url('../assets/curso/tema1/img_4.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--02::before
+    position: absolute
+    content: url('../assets/curso/tema1/img_5.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--03::before
+    position: absolute
+    content: url('../assets/curso/tema1/img_6.svg')
     top: 60px
     left: 50%
     transform: translateX(-50%)
 
-  &--color-acento-contenido-10
-    background-color: $color-acento-contenido-10
+  &--color-secundario-10
+    background-color: $color-secundario-10
     &:active, &:focus, &:hover
-      background-color: $color-secundario-5
+      background-color: $color-acento-contenido-10
       background-repeat: no-repeat
       background-size: cover 
       background-position: center

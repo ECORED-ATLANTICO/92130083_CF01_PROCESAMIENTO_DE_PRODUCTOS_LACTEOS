@@ -16,7 +16,6 @@
         .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
           p.mb-0 La leche es un alimento altamente nutritivo, pero también es susceptible a la contaminación si no se manipula adecuadamente. Por esta razón, la elaboración de productos como yogur, kumis, suero costeño, arequipe y mantequilla requiere la aplicación de Buenas Prácticas de Manufactura (BPM) y el cumplimiento de la normatividad vigente.
 
-          
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -57,7 +56,7 @@
         .col-10.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
-        
+
       .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
@@ -66,6 +65,192 @@
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
             p.mb-0 (Los quesos pueden considerarse dentro de esta cadena productiva, aunque su desarrollo corresponde a procesos específicos de otra línea de formación). 
 
+    Separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 1.2 Concepto de BPM e inocuidad
+    .mb-0 
+
+    p.mb-4(data-aos="zoom-in-right") Las Buenas Prácticas de Manufactura (BPM) son un conjunto de condiciones y procedimientos que garantizan que los alimentos se produzcan de forma higiénica y segura.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-10.col-lg-5.b-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema1/img_9.png', class="img-fluid")
+      .col-12.col-lg-7
+        .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
+          p.mb-3 Incluyen aspectos como:
+          ul.list-unstyled.cita-decorada__texto.mb-3
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Higiene del personal.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Limpieza y desinfección.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Control de materias primas.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Condiciones de equipos e instalaciones.
+        .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
+          p.mb-0 En la industria láctea, las BPM se aplican de manera integral en todas las etapas del proceso, desde el diseño higiénico de las instalaciones, la recepción y almacenamiento de la leche cruda, el control de la cadena de frío, hasta la higiene del personal, la limpieza y desinfección de equipos, y la correcta manipulación de materiales de empaque.
+
+    p.mb-5(data-aos="zoom-in-right") La inocuidad alimentaria se entiende como la garantía de que un alimento no causará daño al consumidor cuando se prepare y consuma de acuerdo con su uso previsto. En este sentido, la implementación adecuada de las BPM constituye la base fundamental para asegurar la inocuidad, ya que permite prevenir fallas en el proceso antes de que el producto llegue al consumidor.
+
+    Separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 1.3 Principales normas en Colombia 
+    .mb-0 
+
+    .cajon.color-primario.p-4(data-aos="zoom-in-right")
+      p.mb-0 En Colombia, la producción y comercialización de alimentos está regulada por normas que buscan proteger la salud del consumidor y garantizar la calidad de los productos.
+
+    .bg_img_3.mb-0
+
+      p.mb-5(data-aos="zoom-in-right") En el caso de los derivados lácteos, algunas de las principales normas son:
+
+      .row.justify-content-center.align-items-start.mb-4
+        .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
+          AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
+            div(titulo="Ley 9 de 1979 (Código Sanitario Nacional):")
+              p.mb-0 Es la norma marco sanitaria en Colombia. En su Título V (“Alimentos”) establece las reglas para garantizar la inocuidad en la producción, procesamiento, transporte y comercialización de alimentos. Sirve de base legal para la inspección, vigilancia y control por parte del INVIMA y las autoridades de salud. 
+            div(titulo="Decreto 3075 de 1997 y Resolución 2674 de 2013 (condiciones sanitarias para alimentos):")
+              ul.list-unstyled.cita-decorada__texto.mb-3
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+                  span #[strong Decreto 3075 de 1997:] reglamentó la Ley 9 y definió las condiciones sanitarias para fábricas de alimentos (instalaciones, higiene, agua, residuos, control de plagas, personal y equipos). Fue guía obligatoria por años.
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+                  span #[strong Resolución 2674 de 2013:] norma vigente que actualiza los requisitos para elaborar y comercializar alimentos. Exige BPM, POES y regula notificación y registro sanitario.
+            div(titulo="Decreto 616 de 2006 (reglamentación técnica para leche y productos lácteos)")
+              p.mb-0 Este decreto reglamenta la producción, procesamiento, transporte y comercialización de la leche cruda, leche pasteurizada y productos lácteos. Define las condiciones de calidad (fisicoquímicas y microbiológicas) que deben cumplir, así como los sistemas de control y vigilancia. Establece, entre otros: 
+              ul.list-unstyled.cita-decorada__texto.mb-3
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+                  span La leche cruda debe provenir de hatos libres de brucelosis y tuberculosis. 
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+                  span Los límites máximos de acidez (18 °Dornic), densidad (1,029 1,033 g/mL), crioscopia (-0,530 a -0,540 °C) y ausencia de antibióticos. 
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+                  span Los productos lácteos deben cumplir con especificaciones de composición y calidad microbiológica. 
+            div(titulo="Resolución 412 de 2014 (Sistema de inspección, vigilancia y control)")
+              p.mb-0 Establece el sistema de inspección, vigilancia y control para la leche cruda y productos lácteos, incluyendo los requisitos para el registro de productores, procesadores y comercializadores, y los procedimientos de muestreo y análisis. Esta resolución fortalece la trazabilidad y la responsabilidad de cada eslabón de la cadena.
+        .col-10.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
+          figure
+            img(src='@/assets/curso/tema1/img_11.png', class="img-fluid")
+
+      h5.mb-4(data-aos="zoom-in-right") Normas Técnicas Colombianas (NTC) para derivados lácteos
+
+      p.mb-5(data-aos="zoom-in-right") Las NTC, elaboradas por ICONTEC, definen especificaciones de calidad que, aunque en principio son voluntarias, se convierten en referentes obligatorios cuando son adoptadas por la autoridad sanitaria o cuando la empresa las declara en su sistema de gestión.
+ 
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+      h5 Tabla 1.
+      |  Normas Técnicas Colombianas aplicables a derivados lácteos
+    .tabla-a.mb-5(data-aos="flip-left")
+      table
+        caption 
+          p Nota. SENA, (2026). 
+        thead
+          tr
+            th.col-auto.col-lg-auto Producto
+            th.col-auto.col-lg-auto NTC
+            th.col-auto.col-lg-3 Año
+            th.col-auto.col-lg-3 Objeto principal
+        tbody
+          tr
+            td.text-start Yogur.
+            td.text-start 805
+            td.text-start 2015
+            td.text-start Define requisitos fisicoquímicos (acidez 0.6 1.2 % ácido láctico), microbiológicos (bacterias lácticas ≥10⁷ UFC/g) y de rotulado.
+          tr
+            td.text-start Kumis.
+            td.text-start 1507
+            td.text-start 2016
+            td.text-start Especifica acidez 0.7 1.3 %, alcohol hasta 1.5 % v/v, presencia de levaduras.
+          tr
+            td.text-start Suero costeño.
+            td.text-start 4973
+            td.text-start 2005
+            td.text-start Establece requisitos para suero fermentado salado.
+          tr
+            td.text-start Arequipe.
+            td.text-start 1307
+            td.text-start 2018
+            td.text-start Define sólidos totales mínimo 70 %, lactosa invertida mínima 12 %, pH 5.8 6.4.
+          tr
+            td.text-start Mantequilla
+            td.text-start 443
+            td.text-start 2017
+            td.text-start Especifica grasa butírica mínima 80 %, humedad máxima 16 %, acidez de la grasa máxima 3 % (ácido oleico).
+          tr
+            td.text-start Leche fermentada
+            td.text-start 4789
+            td.text-start 2006
+            td.text-start Clasificación y requisitos generales.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-10.col-lg-6.b-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema1/img_12.png', class="img-fluid")
+      .col-12.col-lg-6
+        .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
+          p.mb-3 Más que memorizar cada norma, es importante comprender que estas establecen requisitos relacionados con:
+          ul.list-unstyled.cita-decorada__texto.mb-3
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Condiciones de higiene.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Infraestructura y equipos.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Manipulación de alimentos.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Procesos de producción.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              span Almacenamiento y comercialización.
+             
+    .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+          figure
+            img(src='@/assets/curso/tema1/img_13.svg', class="img-fluid")
+        .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+          p.mb-0 El cumplimiento de estas disposiciones es fundamental para evitar riesgos sanitarios, prevenir sanciones y garantizar que los productos puedan ser comercializados de manera legal.
+
+    p.mb-3(data-aos="zoom-in-right") Además, estas normas sirven como guía para organizar adecuadamente los procesos productivos, facilitando la implementación de las Buenas Prácticas de Manufactura y asegurando alimentos inocuos y de calidad para el consumidor.
+
+    Separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 1.4 Relación con POES y HACCP
+    .mb-0 
+
+    .bg_img_4.mb-0
+
+      p.mb-5(data-aos="zoom-in-right") Las Buenas Prácticas de Manufactura (BPM) constituyen la base para garantizar la inocuidad en la producción de alimentos. A partir de ellas, se implementan otros programas que permiten fortalecer el control sanitario en los procesos:
+      
+      ///// falta componente 
+
+      .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-right")
+        p.mb-0 Para que los POES y el HACCP funcionen de manera efectiva, es indispensable que las BPM estén correctamente implementadas. De esta manera, se logra un sistema integral que asegura la producción de alimentos inocuos, de calidad y aptos para el consumo.
+
+    .bg_img_5.mb-0
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-lg-8.mb-3
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            |    Jerarquía de los sistemas de calidad e inocuidad
+          figure(data-aos="flip-left")
+            img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-none d-lg-block").mb-3
+            img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-block d-lg-none").mb-3
+            figcaption Nota. SENA, (2026). 
 </template>
 
 <script>
