@@ -8,7 +8,7 @@
       h1 BPM y normatividad en productos lácteos
   
     .row.justify-content-center.align-items-center.mb-0
-      .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema1/img_1.png', class="img-fluid")
       .col-12.col-lg-8
@@ -25,12 +25,12 @@
     p.mb-3(data-aos="zoom-in-right") Los derivados lácteos son productos obtenidos a partir de la leche mediante procesos tecnológicos físicos, químicos o biológicos que modifican sus características originales, con el fin de prolongar su vida  
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema1/img_2.png', class="img-fluid")
       .col-12.col-lg-8
         p.mb-4(data-aos="zoom-in-right") En Colombia, el sector lácteo representa un componente estratégico de la economía agroindustrial, aportando aproximadamente el 3.5 % del PIB agropecuario y generando más de 700.000 empleos directos e indirectos. Su cadena productiva abarca desde la producción primaria en finca hasta la transformación industrial, distribución y comercialización.
-        .tarjeta.color-adicional-1.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+        .tarjeta.color-terciario-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
           p.mb-0 La transformación de la leche en derivados permite agregar valor al producto, reducir pérdidas por perecibilidad y responder a las tendencias del mercado nacional e internacional, especialmente en alimentos funcionales y de alto valor nutricional.
     
     .bg_img_2.mb-0
@@ -53,7 +53,7 @@
                 .tarjeta--03
                 h5.text-center.mb-3 Grasos: 
                 p.mb-3 mantequilla y crema de leche, obtenidos por separación de la grasa láctea, con amplio uso culinario e industrial. 
-        .col-10.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
 
@@ -74,7 +74,7 @@
     p.mb-4(data-aos="zoom-in-right") Las Buenas Prácticas de Manufactura (BPM) son un conjunto de condiciones y procedimientos que garantizan que los alimentos se produzcan de forma higiénica y segura.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-10.col-lg-5.b-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema1/img_9.png', class="img-fluid")
       .col-12.col-lg-7
@@ -138,7 +138,7 @@
                   span Los productos lácteos deben cumplir con especificaciones de composición y calidad microbiológica. 
             div(titulo="Resolución 412 de 2014 (Sistema de inspección, vigilancia y control)")
               p.mb-0 Establece el sistema de inspección, vigilancia y control para la leche cruda y productos lácteos, incluyendo los requisitos para el registro de productores, procesadores y comercializadores, y los procedimientos de muestreo y análisis. Esta resolución fortalece la trazabilidad y la responsabilidad de cada eslabón de la cadena.
-        .col-10.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
+        .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema1/img_11.png', class="img-fluid")
 
@@ -192,7 +192,7 @@
             td.text-start Clasificación y requisitos generales.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-10.col-lg-6.b-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema1/img_12.png', class="img-fluid")
       .col-12.col-lg-6
@@ -235,7 +235,24 @@
 
       p.mb-5(data-aos="zoom-in-right") Las Buenas Prácticas de Manufactura (BPM) constituyen la base para garantizar la inocuidad en la producción de alimentos. A partir de ellas, se implementan otros programas que permiten fortalecer el control sanitario en los procesos:
       
-      ///// falta componente 
+      .row.justify-content-center.align-items-stretch.mb-4
+        .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="zoom-in-right")
+          figure.mb-5.mb-lg-0
+            img(src='@/assets/curso/tema1/img_15.png', class="img-fluid")
+        .col-12.col-lg-4.mb-5.mb-lg-0.pt-4.d-flex(data-aos="zoom-in-right")
+          .tarjeta-icono-top.color-secundario-10.h-100
+            .tarjeta-icono-top__icono
+              figure
+                img(src='@/assets/curso/tema1/img_16.svg' alt='')
+            h5.text-center.mb-3 POES (Procedimientos Operativos Estandarizados de Saneamiento)
+            p.mb-0 los cuales describen de manera clara y detallada cómo realizar la limpieza y desinfección de equipos, utensilios y áreas de trabajo. Su correcta aplicación permite mantener condiciones higiénicas adecuadas durante la producción.
+        .col-12.col-lg-4.mb-3.mb-lg-0.mt-4.mt-lg-0.pt-4.d-flex(data-aos="zoom-in-right")
+          .tarjeta-icono-top.color-secundario-10.h-100
+            .tarjeta-icono-top__icono
+              figure
+                img(src='@/assets/curso/tema1/img_17.svg' alt='')
+            h5.text-center.mb-3 HACCP (Análisis de Peligros y Puntos Críticos de Control)
+            p.mb-0 es una herramienta preventiva que permite identificar posibles riesgos en el proceso y establecer controles en puntos clave para evitar la contaminación del producto.
 
       .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-right")
         p.mb-0 Para que los POES y el HACCP funcionen de manera efectiva, es indispensable que las BPM estén correctamente implementadas. De esta manera, se logra un sistema integral que asegura la producción de alimentos inocuos, de calidad y aptos para el consumo.

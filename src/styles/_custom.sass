@@ -147,6 +147,62 @@ figcaption
   font-weight: bold
   font-size: 1.2rem
 
+//subtitulo-destacado
+.subtitulo-destacado
+  display: inline-flex
+  align-items: center 
+  width: fit-content
+  max-width: 100%
+
+  &__icono
+    flex-shrink: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 3.9rem
+    height: 3.9rem
+    position: relative
+    z-index: 1
+    margin-top: -1.6rem
+
+  &__img
+    width: 80%  
+    height: 80%
+    object-fit: contain
+    display: block
+    position: static 
+
+  &__fondo
+    display: flex
+    align-items: center
+    background-color: $color-secundario-20
+    border-radius: 10px
+    padding: 0.5rem 2.4rem 0.5rem 5rem 
+    margin-left: -4.5rem  
+
+  &__texto
+    font-size: 1.15rem
+    font-weight: 800
+    color: $color-sistema-texto
+    margin: 0
+    line-height: 1.3
+    word-break: break-word
+
+@media (max-width: 576px)
+  .subtitulo-destacado
+    width: 100%
+
+    &__icono
+      width: 3.4rem
+      height: 3.4rem
+
+    &__fondo
+      flex: 1
+      padding: 0.5rem 2.4rem 0.5rem 5rem
+
+    &__texto
+      font-size: 1rem
+
 
 
 
@@ -190,3 +246,181 @@ figcaption
       background-position: center
       overflow: hidden 
       pointer-events: none
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_10.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_14.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_18.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_6
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_2.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_7
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_7.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_8
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_14.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_9
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_20.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_9
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_24.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+
+
+
+      
+
+  &_15
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -80px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 115%
+      background-image: url('../assets/curso/tema3/img_32.png') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-secundario-70 !important
+      border-color: $color-secundario-70 !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-secundario-70, 15%)
+      border: 1px solid lighten($color-secundario-70, 15%)
