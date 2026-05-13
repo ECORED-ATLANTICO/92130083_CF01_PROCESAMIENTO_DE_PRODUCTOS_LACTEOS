@@ -142,7 +142,7 @@
           figure
             img(src='@/assets/curso/tema1/img_11.png', class="img-fluid")
 
-      h5.mb-4(data-aos="zoom-in-right") Normas Técnicas Colombianas (NTC) para derivados lácteos
+      h4.mb-4(data-aos="zoom-in-right") Normas Técnicas Colombianas (NTC) para derivados lácteos
 
       p.mb-5(data-aos="zoom-in-right") Las NTC, elaboradas por ICONTEC, definen especificaciones de calidad que, aunque en principio son voluntarias, se convierten en referentes obligatorios cuando son adoptadas por la autoridad sanitaria o cuando la empresa las declara en su sistema de gestión.
  
@@ -155,40 +155,40 @@
           p Nota. SENA, (2026). 
         thead
           tr
-            th.col-auto.col-lg-auto Producto
+            th.col-auto.col-lg-3 Producto
             th.col-auto.col-lg-auto NTC
-            th.col-auto.col-lg-3 Año
-            th.col-auto.col-lg-3 Objeto principal
+            th.col-auto.col-lg-auto Año
+            th.col-auto.col-lg-4 Objeto principal
         tbody
           tr
-            td.text-start Yogur.
-            td.text-start 805
-            td.text-start 2015
+            td Yogur.
+            td 805
+            td 2015
             td.text-start Define requisitos fisicoquímicos (acidez 0.6 1.2 % ácido láctico), microbiológicos (bacterias lácticas ≥10⁷ UFC/g) y de rotulado.
           tr
-            td.text-start Kumis.
-            td.text-start 1507
-            td.text-start 2016
+            td Kumis.
+            td 1507
+            td 2016
             td.text-start Especifica acidez 0.7 1.3 %, alcohol hasta 1.5 % v/v, presencia de levaduras.
           tr
-            td.text-start Suero costeño.
-            td.text-start 4973
-            td.text-start 2005
+            td Suero costeño.
+            td 4973
+            td 2005
             td.text-start Establece requisitos para suero fermentado salado.
           tr
-            td.text-start Arequipe.
-            td.text-start 1307
-            td.text-start 2018
+            td Arequipe.
+            td 1307
+            td 2018
             td.text-start Define sólidos totales mínimo 70 %, lactosa invertida mínima 12 %, pH 5.8 6.4.
           tr
-            td.text-start Mantequilla
-            td.text-start 443
-            td.text-start 2017
+            td Mantequilla
+            td 443
+            td 2017
             td.text-start Especifica grasa butírica mínima 80 %, humedad máxima 16 %, acidez de la grasa máxima 3 % (ácido oleico).
           tr
-            td.text-start Leche fermentada
-            td.text-start 4789
-            td.text-start 2006
+            td Leche fermentada
+            td 4789
+            td 2006
             td.text-start Clasificación y requisitos generales.
 
     .row.justify-content-center.align-items-center.mb-4

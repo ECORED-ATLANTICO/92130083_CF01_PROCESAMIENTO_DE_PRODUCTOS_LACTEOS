@@ -10,7 +10,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema2/img_1.png')
-      .bloque-texto-t__texto.col-12.mb-0
+      .bloque-texto-t__texto.col-10.mb-0
         p.mb-0 Para la elaboración de derivados lácteos, es fundamental garantizar condiciones sanitarias adecuadas durante todo el proceso. Esto no solo asegura la calidad del producto, sino que también permite cumplir con la normatividad colombiana vigente.
 
     p.mb-5(data-aos="zoom-in-right") Las normas establecen requisitos relacionados con la higiene, las instalaciones, los procesos y el control de calidad, los cuales deben aplicarse de manera práctica en cada etapa de la producción.
@@ -44,38 +44,38 @@
           p Nota. SENA, (2026). 
         thead
           tr
-            th.col-auto.col-lg-4 Elemento
+            th.col-auto.col-lg-3 Elemento
             th.col-auto.col-lg-auto Requisito
-            th.col-auto.col-lg-4 Frecuencia de verificación
+            th.col-auto.col-lg-3 Frecuencia de verificación
         tbody
           tr
-            td.text-start Pisos.
+            td Pisos.
             td.text-start Impermeables, antideslizantes, pendiente ≥1 % hacia drenajes, sin grietas.
-            td.text-start Diario.
+            td Diario.
           tr
-            td.text-start Paredes.
+            td Paredes.
             td.text-start Lisas, color claro, lavables, ángulos redondeados.
-            td.text-start Semanal.
+            td Semanal.
           tr
-            td.text-start Techos.
+            td Techos.
             td.text-start Evitar condensación; si son falsos, accesibles para limpieza.
-            td.text-start Mensual.
+            td Mensual.
           tr
-            td.text-start Iluminación.
+            td Iluminación.
             td.text-start Mínimo 540 lux en áreas de proceso; lámparas con cubierta protectora.
-            td.text-start Mensual.
+            td Mensual.
           tr
-            td.text-start Ventilación.
+            td Ventilación.
             td.text-start Presión positiva en zonas limpias, filtros de aire clase HEPA si es necesario.
-            td.text-start Trimestral.
+            td Trimestral.
           tr
-            td.text-start Drenajes.
+            td Drenajes.
             td.text-start Rejillas removibles, sifón para evitar malos olores.
-            td.text-start Semanal.
+            td Semanal.
           tr
-            td.text-start Equipos.
+            td Equipos.
             td.text-start Acero inoxidable AISI 304 o 316, superficies lisas, fácil desmontaje, calibración periódica.
-            td.text-start Según plan de mantenimiento.
+            td Según plan de mantenimiento.
 
     p.mb-5(data-aos="zoom-in-right") Los requisitos presentados anteriormente permiten identificar las condiciones básicas que deben cumplir las instalaciones y los equipos en una planta de derivados lácteos. Sin embargo, para su adecuada aplicación, es necesario comprender con mayor detalle el propósito de cada uno de estos elementos.
 
@@ -176,9 +176,9 @@
 
     p.mb-5(data-aos="zoom-in-right") Los POES son procedimientos documentados que aseguran que la limpieza y desinfección se realicen de manera estandarizada. Cada equipo y área debe tener su POES, que incluya objetivo, responsable, frecuencia, EPP, insumos y procedimiento paso a paso.
 
-    TabsB.color-primario.mb-5
-      .py-4.py-md-5(titulo="Técnicas de limpieza: prelavado, lavado, enjuague" :icono="require('@/assets/curso/tema2/img_10.svg')")
-        .row.justify-content-center.align-items-center.mb-5
+    TabsB.color-adicional-1.mb-5
+      .pt-4.pt-md-5.pb-4.p-5(titulo="Técnicas de limpieza: prelavado, lavado, enjuague" :icono="require('@/assets/curso/tema2/img_10.svg')")
+        .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-6.order-2.order-lg-1
             h5.mb-5(data-aos="zoom-in-right") Técnicas de limpieza: prelavado, lavado, enjuague
             ul.list-unstyled.cita-decorada__texto.mb-3
@@ -194,8 +194,8 @@
           .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure(data-aos="zoom-out-up")
               img(src='@/assets/curso/tema2/img_11.png', class="img-fluid")
-      .py-4.py-md-5(titulo="Técnicas de desinfección: física y química" :icono="require('@/assets/curso/tema2/img_12.svg')")
-        .row.justify-content-center.align-items-center.mb-5
+      .py-4.py-md-5.pb-4.p-5(titulo="Técnicas de desinfección: física y química" :icono="require('@/assets/curso/tema2/img_12.svg')")
+        .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-6.order-2.order-lg-1
             h5.mb-5(data-aos="zoom-in-right") Técnicas de desinfección: física y química
             ul.list-unstyled.cita-decorada__texto.mb-3

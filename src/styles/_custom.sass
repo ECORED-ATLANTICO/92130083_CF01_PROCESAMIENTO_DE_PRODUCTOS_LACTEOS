@@ -203,10 +203,68 @@ figcaption
     &__texto
       font-size: 1rem
 
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative
+  overflow: hidden
+  border-radius: 1.5rem
+  display: flex
+  flex-direction: column
+  height: 280px
 
+  &:hover
+    .crd_hover_txt--body
+      transform: translateY(0)
+    .crd_hover_txt--img img
+      transform: scale(1.04)
+    .crd_hover_txt--body p
+      opacity: 1
 
+  .crd_hover_txt--img
+    flex: 1 1 auto
+    overflow: hidden
+    min-height: 0
+    figure
+      margin: 0
+      width: 100%
+      height: 100%
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      display: block
+      transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1)
 
+  .crd_hover_txt--body
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    padding: 0.75rem 1rem 1rem
+    background-color: $color-acento-contenido-20
+    border-radius: 0 
+    transform: translateY(calc(100% - 3rem))  
+    transition: transform 0.45s cubic-bezier(0.42, 0, 0.58, 1)
+    will-change: transform
 
+    h4
+      color: $color-sistema-texto
+      text-align: center
+      font-size: 0.95rem
+      line-height: 1.5rem
+      margin: 0 0 0.5rem 0
+
+    p
+      font-size: 0.85em
+      color: $color-sistema-texto
+      line-height: 1.5
+      margin: 0 
+      opacity: 0
+      transition: opacity 0.3s ease 0.2s
+
+  @media (min-width: 1200px) and (max-width: 1400px)
+    .crd_hover_txt--body p
+      font-size: 0.82em
 
 // Fondos 
 .bg_img
@@ -236,7 +294,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: 0px
+      top: -60px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -372,7 +430,7 @@ figcaption
       background-position: center
       overflow: hidden 
       pointer-events: none
-  &_9
+  &_10
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
       position: relative
@@ -390,11 +448,78 @@ figcaption
       background-position: center
       overflow: hidden 
       pointer-events: none
-
-
-
-      
-
+  &_11
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_3.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_12
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_6.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_13
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_13.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_14
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_28.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
   &_15
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
@@ -424,3 +549,111 @@ figcaption
     .slyder-a__bullets__item
       background-color: lighten($color-secundario-70, 15%)
       border: 1px solid lighten($color-secundario-70, 15%)
+  &_16
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_39.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_17
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_42.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_18
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema3/img_44.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_19
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema4/img_2.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_20
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema4/img_4.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_21
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema4/img_7.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none

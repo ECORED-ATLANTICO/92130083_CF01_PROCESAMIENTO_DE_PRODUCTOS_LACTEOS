@@ -132,7 +132,39 @@
 
     p.mb-5(data-aos="zoom-in-right") A continuación, se presenta los puntos críticos de control (PCC) dentro del proceso productivo, donde es esencial aplicar medidas para prevenir, eliminar o reducir riesgos que puedan afectar la inocuidad del producto. Su identificación permite establecer límites, monitoreo y acciones correctivas, garantizando la calidad y seguridad alimentaria.
 
-    //////////// 
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-6.mb-4
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img_9.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Pasteurización
+            p.mb-3 tiempo/temperatura. Límite crítico: al menos 85 °C por 5 min. Acción correctiva: detener flujo, recalibrar, repetir tratamiento.
+      .col-12.col-lg-6.mb-4
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img_10.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Temperatura de incubación
+            p.mb-3 debe estar entre 42‑45 °C. Si se desvía, se puede afectar la velocidad de fermentación.
+      .col-12.col-lg-6.mb-4.mb-lg-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img_11.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 pH final
+            p.mb-3 4,4‑4,6. Si es menor, hay sobre acidificación y sinéresis; si es mayor, textura débil y riesgo de contaminación.
+      .col-12.col-lg-6.mb-4.mb-lg-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img_12.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Enfriamiento rápido
+            p.mb-3 alcanzar ≤6 °C en <2 h. Si es más lento, la fermentación continúa y se puede producir sinéresis.
     
     .tarjeta.color-terciario-10.p-4.rounded-3.mb-4(data-aos="zoom-in-right")
       p.mb-0 Los principales parámetros de control en la elaboración de yogur, necesarios para asegurar la calidad e inocuidad del producto. Incluye variables como temperatura, tiempo, pH y condiciones de fermentación, que deben ser monitoreadas y controladas para garantizar un proceso adecuado y un producto final seguro.
