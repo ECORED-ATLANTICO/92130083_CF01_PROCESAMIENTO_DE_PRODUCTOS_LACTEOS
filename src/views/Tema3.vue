@@ -126,8 +126,8 @@
             h5 Figura 4.
             |    Proceso de elaboración de un yogur batido
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="La figura 4 describe el Proceso de elaboración de un yogur batido: Recepción y estandarización: ajuste de grasa y sólidos no grasos (SNG) a valores deseados (ej. 3,2 % grasa, 8,5 % SNG). Se puede añadir leche en polvo para aumentar SNG. Pasteurización: 85‑95 °C durante 5‑10 minutos (PCC1). Objetivo: desnaturalizar proteínas (mejora viscosidad), eliminar patógenos y enzimas. Homogeneización: 150‑200 bar, 55‑65 °C, para romper glóbulos de grasa y evitar sinéresis. Enfriamiento: a 42‑45 °C, temperatura óptima de inoculación. Inoculación: agregar cultivo liofilizado o líquido (0,02‑0,05 % p/p). Se debe rehidratar según instrucciones. Fermentación: mantener a 42‑45 °C hasta pH 4,4‑4,6 (3‑5 horas) (PCC2 y PCC3). Control de acidez titulable cada hora. Enfriamiento rápido: descender a 4‑6 °C en menos de 2 horas (PCC4) para detener la fermentación. Adición de fruta (si aplica): mezclar en línea o en tanque. Si es fruta, debe estar pasteurizada y en condiciones asépticas. Envasado: en condiciones asépticas o higiénicas, con integridad de sellos. Almacenamiento: en refrigeración (2‑6 °C), con control de temperatura.").mb-3
+            img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", aly="La figura 4 describe el Proceso de elaboración de un yogur batido: Recepción y estandarización: ajuste de grasa y sólidos no grasos (SNG) a valores deseados (ej. 3,2 % grasa, 8,5 % SNG). Se puede añadir leche en polvo para aumentar SNG. Pasteurización: 85‑95 °C durante 5‑10 minutos (PCC1). Objetivo: desnaturalizar proteínas (mejora viscosidad), eliminar patógenos y enzimas. Homogeneización: 150‑200 bar, 55‑65 °C, para romper glóbulos de grasa y evitar sinéresis. Enfriamiento: a 42‑45 °C, temperatura óptima de inoculación. Inoculación: agregar cultivo liofilizado o líquido (0,02‑0,05 % p/p). Se debe rehidratar según instrucciones. Fermentación: mantener a 42‑45 °C hasta pH 4,4‑4,6 (3‑5 horas) (PCC2 y PCC3). Control de acidez titulable cada hora. Enfriamiento rápido: descender a 4‑6 °C en menos de 2 horas (PCC4) para detener la fermentación. Adición de fruta (si aplica): mezclar en línea o en tanque. Si es fruta, debe estar pasteurizada y en condiciones asépticas. Envasado: en condiciones asépticas o higiénicas, con integridad de sellos. Almacenamiento: en refrigeración (2‑6 °C), con control de temperatura.").mb-3
             figcaption Nota. SENA, (2026).
 
     p.mb-5(data-aos="zoom-in-right") A continuación, se presenta los puntos críticos de control (PCC) dentro del proceso productivo, donde es esencial aplicar medidas para prevenir, eliminar o reducir riesgos que puedan afectar la inocuidad del producto. Su identificación permite establecer límites, monitoreo y acciones correctivas, garantizando la calidad y seguridad alimentaria.
@@ -414,8 +414,8 @@
             h5 Figura 5.
             |    Curva de concentración y punto final del arequipe
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema3/img_29.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema3/img_30.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema3/img_29.svg', class="img-fluid d-none d-lg-block", alt="La figura 5 describe la curva de concentración y punto final del arequipe  60 °Brix: inicio de formación de espuma. 65 °Brix: comienza a espesar. 70 °Brix: punto de pasta blanda (para untar). 72‑75 °Brix: punto final para arequipe tradicional. 78 °Brix: textura muy firme, riesgo de cristalización.").mb-3
+            img(src='@/assets/curso/tema3/img_30.svg', class="img-fluid d-block d-lg-none", alt="La figura 5 describe la curva de concentración y punto final del arequipe  60 °Brix: inicio de formación de espuma. 65 °Brix: comienza a espesar. 70 °Brix: punto de pasta blanda (para untar). 72‑75 °Brix: punto final para arequipe tradicional. 78 °Brix: textura muy firme, riesgo de cristalización.").mb-3
             figcaption Nota. SENA, (2026).
 
     .subtitulo-destacado.mb-5
@@ -578,8 +578,8 @@
             h5 Figura 6.
             |    Diagrama de flujo de mantequilla
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema3/img_45.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema3/img_46.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema3/img_45.svg', class="img-fluid d-none d-lg-block", alt="Un diagrama de flujo del proceso de elaboración de la mantequilla, desde la leche como materia prima hasta el envasado final, incluyendo etapas como descremado, obtención de crema, pasteurización, maduración, batido, desuerado, lavado, amasado, salado opcional, moldeado y envasado.").mb-3
+            img(src='@/assets/curso/tema3/img_46.svg', class="img-fluid d-block d-lg-none", alt="Un diagrama de flujo del proceso de elaboración de la mantequilla, desde la leche como materia prima hasta el envasado final, incluyendo etapas como descremado, obtención de crema, pasteurización, maduración, batido, desuerado, lavado, amasado, salado opcional, moldeado y envasado.").mb-3
             figcaption Nota. SENA, (2026).
 
       h5.mb-3(data-aos="zoom-in-right") Control de calidad en mantequilla

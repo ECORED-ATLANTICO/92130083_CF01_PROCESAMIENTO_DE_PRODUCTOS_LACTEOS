@@ -263,9 +263,17 @@
             h5 Figura 7.
             |    Señalización: colores según norma técnica colombiana
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-block d-lg-none").mb-3
-            figcaption Nota. SENA, (2026).
+            img(
+              src='@/assets/curso/tema4/img_8.svg',
+              class="img-fluid d-none d-lg-block",
+              alt='La figura 7 describe la señalización representada en colores según la norma técnica colombiana. Rojo: prohibición (ej. “No fumar”). Amarillo: precaución (ej. “Piso húmedo”, “Superficie caliente”). Verde: seguridad (ej. “Salida de emergencia”, “Botiquín”). Azul: obligación (ej. “Usar guantes”, “Usar gafas”).'
+            ).mb-3
+            img(
+              src='@/assets/curso/tema4/img_9.svg',
+              class="img-fluid d-block d-lg-none",
+              alt='La figura 7 describe la señalización representada en colores según la norma técnica colombiana. Rojo: prohibición (ej. “No fumar”). Amarillo: precaución (ej. “Piso húmedo”, “Superficie caliente”). Verde: seguridad (ej. “Salida de emergencia”, “Botiquín”). Azul: obligación (ej. “Usar guantes”, “Usar gafas”).'
+            ).mb-3
+          figcaption Nota. SENA, (2026).
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono

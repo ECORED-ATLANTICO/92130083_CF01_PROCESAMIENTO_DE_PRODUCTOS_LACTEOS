@@ -162,8 +162,8 @@
             h5 Figura 2.
             |    Momentos obligatorios para el lavado de manos
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block", alt="La figura 2 describe los momentos obligatorios para el lavado de manos: Al ingresar al área de producción: antes de tocar cualquier superficie, equipo o alimento. Después de ir al baño: principal vía de contaminación fecal‑oral. Después de manipular basura: los residuos son focos de contaminación. Después de estornudar o toser: aunque sea en el codo, la mucosidad puede transferirse. Después de manipular alimentos crudos, antes de tocar alimentos cocidos: evita contaminación cruzada. Cada vez que se cambie de actividad: regla de oro del manipulador. Después de tocar superficies potencialmente contaminadas: como teléfonos, manijas de puertas no desinfectadas.").mb-3
+            img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none", alt="La figura 2 describe los momentos obligatorios para el lavado de manos: Al ingresar al área de producción: antes de tocar cualquier superficie, equipo o alimento. Después de ir al baño: principal vía de contaminación fecal‑oral. Después de manipular basura: los residuos son focos de contaminación. Después de estornudar o toser: aunque sea en el codo, la mucosidad puede transferirse. Después de manipular alimentos crudos, antes de tocar alimentos cocidos: evita contaminación cruzada. Cada vez que se cambie de actividad: regla de oro del manipulador. Después de tocar superficies potencialmente contaminadas: como teléfonos, manijas de puertas no desinfectadas.").mb-3
             figcaption Nota. SENA, (2026). 
     
     p.mb-5(data-aos="zoom-in-right") Asimismo, las personas que presenten enfermedades o heridas expuestas no deben manipular alimentos, ya que pueden convertirse en una fuente de contaminación. La capacitación continua en higiene y manipulación de alimentos es clave para asegurar el cumplimiento de estas prácticas.
@@ -343,8 +343,8 @@
             h5 Figura 3.
             |    Flujo unidireccional en planta láctea
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema2/img_22.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block", atl="La figura 3 describe el flujo unidireccional en una planta láctea,.Recepción leche cruda (zona sucia). Pasteurización (barrera sanitaria). Proceso (zona limpia). Envasado (zona de alta higiene). Almacenamiento pt (zona controlada). Expedición. ").mb-3
+            img(src='@/assets/curso/tema2/img_22.svg', class="img-fluid d-block d-lg-none", alt="La figura 3 describe el flujo unidireccional en una planta láctea,.Recepción leche cruda (zona sucia). Pasteurización (barrera sanitaria). Proceso (zona limpia). Envasado (zona de alta higiene). Almacenamiento pt (zona controlada). Expedición. ").mb-3
             figcaption Nota. SENA, (2026).
 
     Separador

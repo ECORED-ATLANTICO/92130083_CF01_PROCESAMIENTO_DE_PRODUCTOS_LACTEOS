@@ -55,7 +55,7 @@
   background-image: url('../assets/curso/portada/banner_interno.png') !important
 
 .banner-principal__row .banner-principal__img
-  width: 510px !important
+  width: 450px !important
   padding-top: 5rem !important
   padding-bottom: 0 !important
   @media screen and (max-width: $bp-max-xl)
@@ -65,10 +65,13 @@
 
 .banner-principal .tarjeta
   background-position: left 50% !important
-  @media screen and (max-width: 769px)
-    background-image: url(../assets/curso/portada/fondo-banner-principal-sm.png) !important
-  @media screen and (max-width: 430px)
-    background-image: url(../assets/curso/portada/fondo-banner-principal-xs.png) !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-xs.png') !important
+
+  @media (min-width: $bp-min-sm)
+    background-image: url('../assets/curso/portada/fondo-banner-principal-sm.png') !important
+
+  @media (min-width: $bp-min-lg)
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto

@@ -265,8 +265,8 @@
             h5 Figura 1.
             |    Jerarquía de los sistemas de calidad e inocuidad
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-none d-lg-block", alt="La Figura 1 describe la jerarquía de los sistemas de calidad e inocuidad, en su base se encuentra las Buenas practicas de manufactura BPM, en su medio los procedimientos operativos estandarizados de saneamiento POES y en su punta el Analisis de peligros y puntos criticos de control HACCP.").mb-3
+            img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-block d-lg-none", alt="La Figura 1 describe la jerarquía de los sistemas de calidad e inocuidad, en su base se encuentra las Buenas practicas de manufactura BPM, en su medio los procedimientos operativos estandarizados de saneamiento POES y en su punta el Analisis de peligros y puntos criticos de control HACCP.").mb-3
             figcaption Nota. SENA, (2026). 
 </template>
 
