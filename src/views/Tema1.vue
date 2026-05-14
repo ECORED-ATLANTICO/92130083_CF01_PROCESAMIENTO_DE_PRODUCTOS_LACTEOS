@@ -161,34 +161,34 @@
             th.col-auto.col-lg-4 Objeto principal
         tbody
           tr
-            td Yogur.
-            td 805
-            td 2015
+            td.text-start Yogur.
+            td.text-start 805.
+            td.text-start 2015.
             td.text-start Define requisitos fisicoquímicos (acidez 0.6 1.2 % ácido láctico), microbiológicos (bacterias lácticas ≥10⁷ UFC/g) y de rotulado.
           tr
-            td Kumis.
-            td 1507
-            td 2016
+            td.text-start Kumis.
+            td.text-start 1507.
+            td.text-start 2016.
             td.text-start Especifica acidez 0.7 1.3 %, alcohol hasta 1.5 % v/v, presencia de levaduras.
           tr
-            td Suero costeño.
-            td 4973
-            td 2005
+            td.text-start Suero costeño.
+            td.text-start 4973.
+            td.text-start 2005.
             td.text-start Establece requisitos para suero fermentado salado.
           tr
-            td Arequipe.
-            td 1307
-            td 2018
+            td.text-start Arequipe.
+            td.text-start 1307.
+            td.text-start 2018.
             td.text-start Define sólidos totales mínimo 70 %, lactosa invertida mínima 12 %, pH 5.8 6.4.
           tr
-            td Mantequilla
-            td 443
-            td 2017
+            td.text-start Mantequilla.
+            td.text-start 443
+            td.text-start 2017
             td.text-start Especifica grasa butírica mínima 80 %, humedad máxima 16 %, acidez de la grasa máxima 3 % (ácido oleico).
           tr
-            td Leche fermentada
-            td 4789
-            td 2006
+            td.text-start Leche fermentada.
+            td.text-start 4789.
+            td.text-start 2006.
             td.text-start Clasificación y requisitos generales.
 
     .row.justify-content-center.align-items-center.mb-4

@@ -49,33 +49,33 @@
             th.col-auto.col-lg-3 Frecuencia de verificación
         tbody
           tr
-            td Pisos.
+            td.text-start Pisos.
             td.text-start Impermeables, antideslizantes, pendiente ≥1 % hacia drenajes, sin grietas.
-            td Diario.
+            td.text-start Diario.
           tr
-            td Paredes.
+            td.text-start Paredes.
             td.text-start Lisas, color claro, lavables, ángulos redondeados.
-            td Semanal.
+            td.text-start Semanal.
           tr
-            td Techos.
+            td.text-start Techos.
             td.text-start Evitar condensación; si son falsos, accesibles para limpieza.
-            td Mensual.
+            td.text-start Mensual.
           tr
-            td Iluminación.
+            td.text-start Iluminación.
             td.text-start Mínimo 540 lux en áreas de proceso; lámparas con cubierta protectora.
-            td Mensual.
+            td.text-start Mensual.
           tr
-            td Ventilación.
+            td.text-start Ventilación.
             td.text-start Presión positiva en zonas limpias, filtros de aire clase HEPA si es necesario.
-            td Trimestral.
+            td.text-start Trimestral.
           tr
-            td Drenajes.
+            td.text-start Drenajes.
             td.text-start Rejillas removibles, sifón para evitar malos olores.
-            td Semanal.
+            td.text-start Semanal.
           tr
-            td Equipos.
+            td.text-start Equipos.
             td.text-start Acero inoxidable AISI 304 o 316, superficies lisas, fácil desmontaje, calibración periódica.
-            td Según plan de mantenimiento.
+            td.text-start Según plan de mantenimiento.
 
     p.mb-5(data-aos="zoom-in-right") Los requisitos presentados anteriormente permiten identificar las condiciones básicas que deben cumplir las instalaciones y los equipos en una planta de derivados lácteos. Sin embargo, para su adecuada aplicación, es necesario comprender con mayor detalle el propósito de cada uno de estos elementos.
 
@@ -290,17 +290,17 @@
       h5.mb-5(data-aos="zoom-in-right") La contaminación cruzada puede ser:
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-12.col-lg-4.mb-3
+      .col-12.col-md-6.col-lg-4.mb-3
         .tarjeta--color-white.h-100
           .tarjeta--04
           h5.text-center.mb-3 Directa
           p.mb-3 contacto entre materia prima contaminada y producto terminado.
-      .col-12.col-lg-4.mb-3
+      .col-12.col-md-6.col-lg-4.mb-3
         .tarjeta--color-white.h-100
           .tarjeta--05
           h5.text-center.mb-3 Indirecta
           p.mb-3 a través de utensilios, manos, trapos, equipos no desinfectados.
-      .col-12.col-lg-4.mb-3
+      .col-12.col-md-6.col-lg-4.mb-3
         .tarjeta--color-white.h-100
           .tarjeta--06
           h5.text-center.mb-3 Por vectores

@@ -18,25 +18,22 @@
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
             p.mb-0 Este componente formativo orienta al aprendiz en la elaboración de derivados lácteos, integrando la aplicación de las Buenas Prácticas de Manufactura (BPM) para garantizar productos inocuos y de calidad.
   
-      .row.justify-content-center.align-items-center.mb-0
+      .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/introduccion/img_3.png', class="img-fluid")
         .col-12.col-lg-8
           p.mb-3(data-aos="zoom-in-right") Durante el proceso, se abordarán aspectos clave como la higiene en la manipulación de alimentos, las condiciones sanitarias, el uso adecuado de envases y el cumplimiento de la normatividad colombiana vigente. Asimismo, se desarrollarán de manera práctica los procesos de elaboración de productos como yogur, kumis, suero costeño, arequipe, manjar blanco, panelitas y mantequilla.
           .cajon.color-primario.p-4(data-aos="zoom-in-right")
-            p.mb-0 La formación tiene un enfoque principalmente práctico, permitiendo al aprendiz aplicar los conocimientos en situaciones reales de producción. Al finalizar, estará en capacidad de elaborar derivados lácteos cumpliendo con condiciones de calidad, seguridad e inocuidad.
-
-      br
-      br
-      br
-      br
-    
-    //figure.mb-5
-    //  .video.mb-2
-    //    iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    //  figcaption Video: Leyenda del video
-    
+            p.mb-3 La formación tiene un enfoque principalmente práctico, permitiendo al aprendiz aplicar los conocimientos en situaciones reales de producción. Al finalizar, estará en capacidad de elaborar derivados lácteos cumpliendo con condiciones de calidad, seguridad e inocuidad.
+      
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-12.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          figure.mb-2
+            .video.mb-2
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Buenas Prácticas de Manufactura BPM, empaque de s y elaboración de derivados lácteos.
+  
 </template>
 
 <script>

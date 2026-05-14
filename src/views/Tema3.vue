@@ -26,7 +26,7 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+      figcaption Video: Procedimientos para la producción higiénica de derivados lácteos.
     Separador
 
     .bg_img_11.mb-0
@@ -617,11 +617,11 @@
             td.text-start Titulación.
           tr
             td.text-start Índice de peróxidos.
-            td.text-start < 1 meq O₂/kg.
+            td.text-start < 1 meq O₂ / kg.
             td.text-start Valoración con tiosulfato.
           tr
             td.text-start Recuento de coliformes.
-            td.text-start < 10 UFC/g.
+            td.text-start < 10 UFC / g.
             td.text-start Siembra en agar VRBA.
           tr
             td.text-start Salmonella.

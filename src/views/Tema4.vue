@@ -81,7 +81,7 @@
             td.text-start PET (Polietileno tereftalato).
             td.text-start Botellas para yogur bebible.
             td.text-start Transparente, liviano, barrera a gases.
-            td.text-start No resiste llenado >70 °C.
+            td.text-start No resiste llenado > 70 °C.
           tr
             td.text-start PP (Polipropileno).
             td.text-start Tarrinas para yogur.
@@ -98,7 +98,7 @@
             td.text-start Inerte, barrera total, reutilizable.
             td.text-start Frágil, pesado.
           tr
-            td.text-start Brick multicapa (papel+Al+PE).
+            td.text-start Brick multicapa (papel + Al + PE).
             td.text-start Yogur bebible, leches fermentadas.
             td.text-start Excelente barrera, ligero.
             td.text-start No apto para microondas si contiene Al.
@@ -193,7 +193,7 @@
         tbody
           tr
             td.text-start Físico.
-            td.text-start Pisos húmedos, temperaturas extremas (vapor, frío), ruido (>85 dB), iluminación deficiente.
+            td.text-start Pisos húmedos, temperaturas extremas (vapor, frío), ruido (> 85 dB), iluminación deficiente.
             td.text-start Caídas, quemaduras, hipoacusia, golpes.
             td.text-start Pisos antideslizantes, señalización, EPP, mantenimiento.
           tr
