@@ -56,6 +56,8 @@
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
+      
+      p.mb-3(data-aos="zoom-in-right") (Los quesos pueden considerarse dentro de esta cadena productiva, aunque su desarrollo corresponde a procesos específicos de otra línea de formación). 
 
       .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-0
@@ -63,7 +65,7 @@
             figure
               img(src='@/assets/curso/tema1/img_8.svg', class="img-fluid")
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-            p.mb-0 (Los quesos pueden considerarse dentro de esta cadena productiva, aunque su desarrollo corresponde a procesos específicos de otra línea de formación). 
+            p.mb-0 Estos productos no solo representan tradición cultural en Colombia, sino que también tienen alto potencial económico y exportador, lo que exige el cumplimiento estricto de BPM para garantizar su calidad e inocuidad en toda la cadena productiva.
 
     Separador
 
@@ -80,19 +82,20 @@
       .col-12.col-lg-7
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-3 Incluyen aspectos como:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Higiene del personal.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Limpieza y desinfección.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Control de materias primas.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Condiciones de equipos e instalaciones.
+           
         .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
           p.mb-0 En la industria láctea, las BPM se aplican de manera integral en todas las etapas del proceso, desde el diseño higiénico de las instalaciones, la recepción y almacenamiento de la leche cruda, el control de la cadena de frío, hasta la higiene del personal, la limpieza y desinfección de equipos, y la correcta manipulación de materiales de empaque.
 
@@ -152,7 +155,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-3 Producto
@@ -198,21 +201,22 @@
       .col-12.col-lg-6
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-3 Más que memorizar cada norma, es importante comprender que estas establecen requisitos relacionados con:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Condiciones de higiene.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Infraestructura y equipos.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Infrastructura y equipos.
+            li
+              i.lista-ul__vineta-check.mb-2
               span Manipulación de alimentos.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Procesos de producción.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Almacenamiento y comercialización.
              
     .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")

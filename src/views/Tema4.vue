@@ -64,7 +64,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Material
@@ -144,18 +144,18 @@
       .col-12.col-lg-6.mb-0
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
           p.mb-3 Estas iniciativas incluyen el uso de materiales biodegradables, la incorporación de plásticos reciclados, el rediseño de envases para facilitar su reciclaje y la implementación de sistemas de retorno, promoviendo una economía más circular y responsable.
-          ul.list-unstyled.cita-decorada__texto.mb-0
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Uso de materiales biodegradables (PLA, almidón de maíz) para envases de yogur.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Envases fabricados con plástico reciclado postconsumo (PCR) aptos para contacto con alimentos.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Reducción de capas en multicapas para facilitar reciclaje.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Reducción de capas en multicapas para facilitar reciclaje. 
+            li
+              i.lista-ul__vineta-check.mb-2
               span Implementación de sistemas de retorno (vidrio retornable).
 
     Separador
@@ -183,7 +183,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Tipo
@@ -231,7 +231,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Área
@@ -286,22 +286,23 @@
         p.mb-3(data-aos="zoom-in-right") Los planes de emergencia y la realización de simulacros son fundamentales para garantizar una respuesta oportuna y organizada ante situaciones de riesgo en la planta láctea. Su implementación permite proteger la vida de los trabajadores, minimizar daños en las instalaciones y asegurar la continuidad del proceso productivo, mediante la definición de recursos, responsabilidades y acciones claras frente a posibles contingencias.
         .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-3 Toda planta debe contar con:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Brigada de emergencias capacitada en primeros auxilios, evacuación y control de incendios.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Extintores ubicados cada 15 m, con inspección mensual y recarga anual.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Rutas de evacuación claramente marcadas y libres de obstáculos.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Simulacros de evacuación al menos cada 6 meses.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Plan de contingencia para fallas en cadena de frío, cortes de energía o accidentes con químicos.
+      
       .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/img_10.png', class="img-fluid")

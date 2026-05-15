@@ -41,7 +41,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-3 Elemento
@@ -87,21 +87,21 @@
         .cajon.color-acento-contenido.p-4.mb-3(data-aos="zoom-in-right")
           p.mb-0 A continuación, se describen de manera más específica las características y condiciones que deben cumplir aspectos como pisos, paredes, techos, iluminación, ventilación, drenajes y equipos, destacando su importancia dentro del proceso productivo y su relación con la inocuidad de los alimentos.
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Pisos con pendiente y drenajes:] evitan acumulación de agua y facilitan limpieza. Las rejillas deben ser removibles y contar con sifón para evitar malos olores.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
+              span #[strong Pisos con pendiente y drenajes:] evitan acumulación de agua y facilitan limpieza. Las rejillas deben ser removibles y contar con sifón para evitar malos olores. 
+            li
+              i.lista-ul__vineta-check.mb-2
               span #[strong Paredes lisas con ángulos redondeados:] eliminan rincones donde se acumula suciedad; se recomienda pintura epóxica o azulejos.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span #[strong Lámparas con cubierta protectora:] previenen roturas que contaminen el producto; deben ser de material resistente a impactos.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span #[strong Sistema CIP (limpieza en sitio):] tuberías y tanques que automatizan la limpieza de equipos cerrados, reduciendo el tiempo y el riesgo de contaminación.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span #[strong Puertas de cierre automático:] evitan el ingreso de plagas y mantienen la presión diferencial entre áreas.
 
     Separador
@@ -115,31 +115,32 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.order-2.order-lg-1
         .tarjeta.color-primario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-3
               span #[strong Estado de salud:] no deben laborar personas con enfermedades transmisibles, heridas infectadas o síntomas gastrointestinales; deben reportar su estado y ser retiradas temporalmente. 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Higiene personal:] baño diario y presentación personal adecuada; uñas cortas, limpias y sin esmalte. 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Uniforme:] uso obligatorio de ropa limpia y exclusiva de la planta, cambiada diariamente. 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Elementos del uniforme:] chaqueta o delantal claro, pantalón, gorro que cubra totalmente el cabello y calzado antideslizante de seguridad. 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Uso de protección adicional:] tapabocas obligatorio en caso de barba, bigote o riesgo de contaminación. 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Accesorios:] prohibido el uso de joyas (anillos, aretes, relojes, cadenas o piercings). 
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Comportamiento en planta:] no comer, beber, fumar ni masticar chicle en áreas de producción. 
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Higiene personal:] baño diario y presentación personal adecuada; uñas cortas, limpias y sin esmalte.
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Uniforme:] uso obligatorio de ropa limpia y exclusiva de la planta, cambiada diariamente.
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Elementos del uniforme:] chaqueta o delantal claro, pantalón, gorro que cubra totalmente el cabello y calzado antideslizante de seguridad.
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Uso de protección adicional:] tapabocas obligatorio en caso de barba, bigote o riesgo de contaminación.
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Accesorios:] prohibido el uso de joyas (anillos, aretes, relojes, cadenas o piercings).
+            li
+              i.lista-ul__vineta-check.mb-3
+              span #[strong Comportamiento en planta:] no comer, beber, fumar ni masticar chicle en áreas de producción.
+            li
+              i.lista-ul__vineta-check.mb-3
               span #[strong Buenas prácticas:] evitar estornudar o toser sobre los alimentos y reportar cualquier anomalía o riesgo.
+
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
         figure(data-aos="zoom-out-up")
           img(src='@/assets/curso/tema2/img_5.png', class="img-fluid")
@@ -178,47 +179,81 @@
 
     TabsB.color-adicional-1.mb-5
       .pt-4.pt-md-5.pb-4.p-5(titulo="Técnicas de limpieza: prelavado, lavado, enjuague" :icono="require('@/assets/curso/tema2/img_10.svg')")
-        .row.justify-content-center.align-items-center.mb-0
+        .row.justify-content-center.align-items-start.mb-0
           .col-12.col-lg-6.order-2.order-lg-1
-            h5.mb-5(data-aos="zoom-in-right") Técnicas de limpieza: prelavado, lavado, enjuague
-            ul.list-unstyled.cita-decorada__texto.mb-3
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Prelavado:] eliminación de residuos gruesos con agua a presión o raspe, con el fin de reducir la carga orgánica.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Lavado:] aplicación de detergente alcalino (generalmente sosa cáustica al 1 2 %) con acción mecánica (cepillo, esponja, sistema CIP) para remover grasa y proteínas. La temperatura del agua debe estar entre 50 70 °C para optimizar la acción.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Enjuague:] arrastre de detergente con agua potable, asegurando que no queden residuos químicos.
+            h5.mb-4 Técnicas de limpieza: prelavado, lavado, enjuague
+            
+              ul.lista-ul.lista-ul--check.m-3
+                li.mb-3
+                  i.lista-ul__vineta-check
+                  div
+                    p.mb-0
+                      strong Prelavado:
+                      |  eliminación de residuos gruesos con agua a presión o raspe, con el fin de reducir la carga orgánica.
+                li.mb-3
+                  i.lista-ul__vineta-check
+                  div
+                    p.mb-0
+                      strong Lavado:
+                      |  aplicación de detergente alcalino (generalmente sosa cáustica al 1 - 2 %) con acción mecánica (cepillo, esponja, sistema CIP) para remover grasa y proteínas. La temperatura del agua debe estar entre 50 - 70 °C para optimizar la acción.
+                li.mb-3
+                  i.lista-ul__vineta-check
+                  div
+                    p.mb-0
+                      strong Enjuague:
+                      |  arrastre de detergente con agua potable, asegurando que no queden residuos químicos.             
           .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure(data-aos="zoom-out-up")
               img(src='@/assets/curso/tema2/img_11.png', class="img-fluid")
       .py-4.py-md-5.pb-4.p-5(titulo="Técnicas de desinfección: física y química" :icono="require('@/assets/curso/tema2/img_12.svg')")
-        .row.justify-content-center.align-items-center.mb-0
+        .row.justify-content-center.align-items-start.mb-0
           .col-12.col-lg-6.order-2.order-lg-1
-            h5.mb-5(data-aos="zoom-in-right") Técnicas de desinfección: física y química
-            ul.list-unstyled.cita-decorada__texto.mb-3
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Desinfección física:] agua caliente (≥80 °C durante 2 min) o vapor saturado. Es el método más seguro y sin residuos, pero no siempre aplicable a todos los materiales.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Desinfección química:] uso de soluciones de desinfectantes aprobados. Los más comunes en la industria láctea son:
-            ul.lista-ul.mb-3.ps-4
-              li.d-flex.align-items-start.mb-3
-                i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Hipoclorito de sodio (cloro):] concentración 100 200 ppm, tiempo de contacto 5 10 minutos. Es económico y de amplio espectro, pero corrosivo y sensible a la materia orgánica.
-              li.d-flex.align-items-start.mb-3
-                i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Amonios cuaternarios:] 200 400 ppm, 10 minutos. Dejan una película residual, no requieren enjuague en superficies no críticas.
-              li.d-flex.align-items-start.mb-3
-                i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Yodóforos:] 12,5 25 ppm, 2 5 minutos. Efectivos pero pueden manchar algunas superficies.
-              li.d-flex.align-items-start.mb-3
-                i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span #[strong Ácido peracético:] 100 200 ppm, 1 5 minutos. Activo a bajas temperaturas y se descompone en productos inocuos.
-            
+            h5.mb-4 Técnicas de desinfección: física y química
+
+              ul.lista-ul.lista-ul--check.m-3
+                li.mb-4
+                  i.lista-ul__vineta-check
+                  div
+                    p.mb-0
+                      strong Desinfección física:
+                      |  agua caliente (≥80 °C durante 2 min) o vapor saturado. Es el método más seguro y sin residuos, pero no siempre aplicable a todos los materiales.
+                
+                li.mb-4
+                  i.lista-ul__vineta-check
+                  div
+                    p.mb-3
+                      strong Desinfección química:
+                      |  uso de soluciones de desinfectantes aprobados. Los más comunes en la industria láctea son:
+                    
+                    ul.list-unstyled.ps-4
+                      li.mb-3.d-flex.align-items-start
+                        i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
+                        div
+                          p.mb-0
+                            strong Hipoclorito de sodio (cloro):
+                            |  concentración 100 200 ppm, tiempo de contacto 5 10 minutos. Es económico y de amplio espectro, pero corrosivo y sensible a la materia orgánica.
+                      
+                      li.mb-3.d-flex.align-items-start
+                        i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
+                        div
+                          p.mb-0
+                            strong Amonios cuaternarios:
+                            |  200 400 ppm, 10 minutos. Dejan una película residual, no requieren enjuague en superficies no críticas.
+                      
+                      li.mb-3.d-flex.align-items-start
+                        i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
+                        div
+                          p.mb-0
+                            strong Yodóforos:
+                            |  12,5 25 ppm, 2 5 minutos. Efectivos pero pueden manchar algunas superficies.
+                      
+                      li.mb-0.d-flex.align-items-start
+                        i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
+                        div
+                          p.mb-0
+                            strong Ácido peracético:
+                            |  100 200 ppm, 1 5 minutos. Activo a bajas temperaturas y se descompone en productos inocuos.
+
           .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure(data-aos="zoom-out-up")
               img(src='@/assets/curso/tema2/img_13.png', class="img-fluid")
@@ -229,7 +264,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Desinfectante
@@ -312,26 +347,26 @@
           img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
       .col-12.col-lg-8
         .tarjeta.color-primario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
-          p.mb-5 Medidas de prevención:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Separación física de áreas (recepción de leche cruda aislada de áreas de proceso).
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Flujo unidireccional (materia prima → proceso → producto terminado).
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Color coding:] utensilios de diferentes colores para cada área.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          p.mb-3 Medidas de prevención:
+          ul.lista-ul.lista-ul--check.m-0
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Separación física de áreas: recepción de leche cruda aislada de áreas de proceso.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span  Flujo unidireccional: materia prima → proceso → producto terminado.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span <em>Color coding:</em> utensilios de diferentes colores para cada área.
+            li
+              i.lista-ul__vineta-check.mb-2
               span Limpieza y desinfección entre lotes, especialmente al cambiar de producto.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Control del personal:] no transitar entre zonas sucias y limpias sin cambio de indumentaria y lavado de manos.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span #[strong Control ambiental:] presión positiva en salas limpias, filtros de aire.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Control del personal: no transitar entre zonas sucias y limpias sin cambio de indumentaria y lavado de manos.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Control ambiental: presión positiva en salas limpias, filtros de aire.
 
     p.mb-5(data-aos="zoom-in-right") La siguiente figura ilustra el flujo unidireccional en una planta láctea, un principio clave de las Buenas Prácticas de Manufactura que garantiza la inocuidad del proceso. Este flujo organiza las operaciones desde la recepción de la materia prima hasta el producto final, evitando cruces entre áreas limpias y sucias, reduciendo el riesgo de contaminación cruzada y asegurando condiciones higiénico-sanitarias adecuadas en cada etapa.
 
@@ -343,7 +378,7 @@
             h5 Figura 3.
             |    Flujo unidireccional en planta láctea
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block", atl="La figura 3 describe el flujo unidireccional en una planta láctea,.Recepción leche cruda (zona sucia). Pasteurización (barrera sanitaria). Proceso (zona limpia). Envasado (zona de alta higiene). Almacenamiento pt (zona controlada). Expedición. ").mb-3
+            img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block", alt="La figura 3 describe el flujo unidireccional en una planta láctea,.Recepción leche cruda (zona sucia). Pasteurización (barrera sanitaria). Proceso (zona limpia). Envasado (zona de alta higiene). Almacenamiento pt (zona controlada). Expedición. ").mb-3
             img(src='@/assets/curso/tema2/img_22.svg', class="img-fluid d-block d-lg-none", alt="La figura 3 describe el flujo unidireccional en una planta láctea,.Recepción leche cruda (zona sucia). Pasteurización (barrera sanitaria). Proceso (zona limpia). Envasado (zona de alta higiene). Almacenamiento pt (zona controlada). Expedición. ").mb-3
             figcaption Nota. SENA, (2026).
 
@@ -367,31 +402,32 @@
         .col-12.col-lg-8.order-2.order-lg-1
           .tarjeta.color-primario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             p.mb-3 En la recepción se verifica:
-            ul.list-unstyled.cita-decorada__texto.mb-3
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            ul.lista-ul.lista-ul--check
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Condiciones del vehículo de transporte (limpieza, temperatura).
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Integridad de empaques (sin roturas, sin humedad).
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Fecha de vencimiento (vida útil suficiente).
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Características organolépticas (olor, color, textura).
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Temperatura (si es perecedero) con termómetro infrarrojo o sonda.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Documentación: factura, certificados de calidad, registro sanitario del proveedor.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+              li
+                i.lista-ul__vineta-check.mb-2
                 span Para leche cruda: acidez (≤18 °Dornic), densidad, crioscopia, pruebas de antibióticos.
-              li.d-flex.align-items-start.mb-3
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                span Se registra en un formato de “Recepción de Materias Primas”.
+              li
+                i.lista-ul__vineta-check.mb-2
+                span Se registra en un formato de “Recepción de Materias Primas”. 
+                
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema2/img_25.png', class="img-fluid")

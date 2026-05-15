@@ -50,68 +50,103 @@
         .col-12.col-lg-8.order-2.order-lg-1
           .tarjeta.color-primario-10.p-4.rounded-4.mb-0(data-aos="zoom-in-right")
             p.mb-3 Clasificación:
-            .row.justify-content-center.align-items-center.mb-3
+            .row.justify-content-center.align-items-start.mb-0
               .col-12.col-lg-6.mb-3.mb-lg-0
-                ul.list-unstyled.cita-decorada__texto.mb-3
-                  li.d-flex.align-items-start.mb-3
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                    span #[strong Por contenido graso:] 
-                ul.lista-ul.mb-3.ps-4
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Entero (>3 %).
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Semidesnatado (1,5 3 %).
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Desnatado (<1,5 %).
+                ul.lista-ul.lista-ul--check                  
+                  li.mb-3
+                    i.lista-ul__vineta-check
+                    div
+                      p.mb-2
+                        strong Por contenido graso:
+                      ul.list-unstyled.ps-4
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Entero (>3 %).
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Semidesnatado (1,5 3 %).
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Desnatado (<1,5 %).
+
               .col-12.col-lg-6.mb-3.mb-lg-0
-                ul.list-unstyled.cita-decorada__texto.mb-3
-                  li.d-flex.align-items-start.mb-3
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                    span #[strong Por aditivos:] 
-                ul.lista-ul.mb-3.ps-4
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Natural.
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Con frutas.
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Saborizado.
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Endulzado.
-            .row.justify-content-center.align-items-center.mb-0
+                ul.lista-ul.lista-ul--check                  
+                  li.mb-3
+                    i.lista-ul__vineta-check
+                    div
+                      p.mb-2
+                        strong Por aditivos:
+                      ul.list-unstyled.ps-4
+                        li.mb-3.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Natural.
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Con frutas.
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Saborizado.
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Endulzado.
+
+            .row.justify-content-center.align-items-start.mb-0
               .col-12.col-lg-6.mb-3.mb-lg-0
-                ul.list-unstyled.cita-decorada__texto.mb-3
-                  li.d-flex.align-items-start.mb-3
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                    span #[strong Por elaboración:] 
-                ul.lista-ul.mb-3.ps-4
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Firme (coagulación en envase).
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Batido (fermentación en tanque, luego envasado).
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Bebible (menor viscosidad).
+                ul.lista-ul.lista-ul--check                  
+                  li.mb-3
+                    i.lista-ul__vineta-check
+                    div
+                      p.mb-2
+                        strong Por elaboración:
+                      ul.list-unstyled.ps-4
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Firme (coagulación en envase).
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Batido (fermentación en tanque, luego envasado).
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Bebible (menor viscosidad).
+              
               .col-12.col-lg-6.mb-3.mb-lg-0
-                ul.list-unstyled.cita-decorada__texto.mb-3
-                  li.d-flex.align-items-start.mb-3
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                    span #[strong Por tratamiento térmico:] 
-                ul.lista-ul.mb-3.ps-4
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span Pasteurizado (refrigerado).
-                  li.d-flex.align-items-start.mb-0
-                    i.lista-ul__vineta.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 15px; line-height: 1.5;").mb-0
-                    span UHT (vida útil extendida).
+                ul.lista-ul.lista-ul--check                  
+                  li.mb-3
+                    i.lista-ul__vineta-check
+                    div
+                      p.mb-2
+                        strong Por tratamiento térmico:
+                      ul.list-unstyled.ps-4
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span Pasteurizado (refrigerado).
+                        li.mb-2.d-flex.align-items-start
+                          i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
+                          div
+                            p.mb-0
+                              span UHT (vida útil extendida).
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema3/img_5.png', class="img-fluid")
@@ -175,7 +210,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Parámetro
@@ -264,20 +299,20 @@
       .col-12.col-lg-6
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-3 Diferencias con el yogur:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Temperatura de fermentación ambiente vs. termófila.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Presencia de levaduras y alcohol.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Menor pH (3,5 4,2) y mayor acidez.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-0
               span Mayor efervescencia.
-
+                
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_4.png', aria-hidden='true').subtitulo-destacado__img
@@ -289,22 +324,23 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-6.order-2.order-lg-1.mb-0
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Obtención de suero dulce (subproducto de queso) o preparación de leche descremada.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Fermentación espontánea o dirigida: se deja reposar a temperatura ambiente durante 12‑24 horas para acidificación natural.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Salado: se adiciona sal al gusto (entre 2‑5 %).
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Maduración: se mantiene en recipiente abierto o tapado por 1‑3 días, con agitación diaria.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Fermentación espontánea o dirigida: se deja reposar a temperatura ambiente durante 12 ‑ 24 horas para acidificación natural.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Salado: se adiciona sal al gusto (entre 2 ‑ 5 %).
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Maduración: se mantiene en recipiente abierto o tapado por 1 ‑ 3 días
+            li
+              i.lista-ul__vineta-check.mb-0
               span Envasado y refrigeración.
+
       .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema3/img_22.png', class="img-fluid")
@@ -357,19 +393,20 @@
         p.mb-4(data-aos="zoom-in-right") El arequipe es un producto pastoso obtenido por concentración térmica de leche con adición de sacarosa, con o sin otros ingredientes. Es muy apreciado en Colombia.
         .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           p.mb-3 Formulación típica:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Leche entera (100 partes).
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Azúcar (20 30 partes).
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Bicarbonato de sodio (0,1 0,3 partes para ajustar pH y evitar corte).
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-              span Opcional: glucosa (para evitar cristalización), vainilla, esencia de café.
+            li
+              i.lista-ul__vineta-check.mb-0
+              span Opcional: glucosa (para evitar cristalización), vainilla, esencia de café
+
       .col-10.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema3/img_26.png', class="img-fluid")
@@ -553,15 +590,15 @@
         .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Obtención y estandarización de la crema:")
-              p.mb-0 La crema se obtiene por separación centrífuga de la leche, alcanzando un contenido graso de 35–45 %. En esta etapa se pueden ajustar variables como el contenido de grasa y temperatura para asegurar uniformidad y un adecuado desempeño en las fases posteriores. 
+              p.mb-0 La crema se obtiene por separación centrífuga de la leche, alcanzando un contenido graso de 35 – 45 %. En esta etapa se pueden ajustar variables como el contenido de grasa y temperatura para asegurar uniformidad y un adecuado desempeño en las fases posteriores. 
             div(titulo="Pasteurización:")
-              p.mb-0 La crema se somete a un tratamiento térmico de 85–95 °C durante 15–20 segundos, seguido de enfriamiento inmediato. Este proceso elimina microorganismos patógenos, inactiva enzimas y mejora la estabilidad microbiológica del producto. 
+              p.mb-0 La crema se somete a un tratamiento térmico de 85 – 95 °C durante 15 – 20 segundos, seguido de enfriamiento inmediato. Este proceso elimina microorganismos patógenos, inactiva enzimas y mejora la estabilidad microbiológica del producto. 
             div(titulo="Maduración:")
-              p.mb-0 Consiste en enfriar la crema a 5–10 °C y mantenerla entre 4 y 12 horas. Durante este tiempo ocurre la cristalización parcial de la grasa, lo que favorece una mejor textura, mayor rendimiento en el batido y características sensoriales adecuadas. 
+              p.mb-0 Consiste en enfriar la crema a 5 – 10 °C y mantenerla entre 4 y 12 horas. Durante este tiempo ocurre la cristalización parcial de la grasa, lo que favorece una mejor textura, mayor rendimiento en el batido y características sensoriales adecuadas. 
             div(titulo="Batido y desuerado:")
               p.mb-0 La crema se agita mecánicamente, provocando la inversión de la emulsión (de grasa en agua a agua en grasa). Se forman gránulos de mantequilla y se libera el suero de mantequilla (buttermilk), el cual es retirado para reducir la humedad y mejorar la conservación. 
             div(titulo="Lavado y amasado:")
-              p.mb-0 Se realiza un lavado con agua fría (2–5 °C) para eliminar residuos de suero y lactosa. Luego, mediante el amasado, se obtiene una masa homogénea, se distribuye uniformemente la humedad y se mejora la textura final del producto. 
+              p.mb-0 Se realiza un lavado con agua fría (2 – 5 °C) para eliminar residuos de suero y lactosa. Luego, mediante el amasado, se obtiene una masa homogénea, se distribuye uniformemente la humedad y se mejora la textura final del producto. 
             div(titulo="Salado, moldeado y envasado:")
               p.mb-0 Se puede añadir sal fina para mejorar el sabor y la conservación. Posteriormente, la mantequilla se moldea en bloques o porciones y se envasa en materiales aptos para alimentos, protegiéndola de la luz y el oxígeno. Debe mantenerse en refrigeración para conservar su calidad. 
         .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
@@ -592,7 +629,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. SENA, (2026). 
+          p.mb-0 Nota. SENA, (2026). 
         thead
           tr
             th.col-auto.col-lg-auto Parámetro
@@ -632,18 +669,18 @@
       .col-12.col-lg-7.order-2.order-lg-1.mb-0
         .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           h5.mb-3 Controles durante el proceso:
-          ul.list-unstyled.cita-decorada__texto.mb-3
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
               span Temperatura de maduración: influye en la textura y la capacidad de batido.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Tiempo de batido: el sobrebatido puede causar pérdida de grasa en el suero.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-2
               span Calidad del agua de lavado: debe ser potable y fría para eliminar suero sin derretir la grasa.
-            li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
+            li
+              i.lista-ul__vineta-check.mb-0
               span Temperatura de almacenamiento: no debe exceder 4 °C para evitar rancidez.
       .col-10.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
