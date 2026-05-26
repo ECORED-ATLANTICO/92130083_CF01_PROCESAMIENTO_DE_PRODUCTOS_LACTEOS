@@ -185,8 +185,8 @@
             td.text-start Define sólidos totales mínimo 70 %, lactosa invertida mínima 12 %, pH 5.8 6.4.
           tr
             td.text-start Mantequilla.
-            td.text-start 443
-            td.text-start 2017
+            td.text-start 443.
+            td.text-start 2017.
             td.text-start Especifica grasa butírica mínima 80 %, humedad máxima 16 %, acidez de la grasa máxima 3 % (ácido oleico).
           tr
             td.text-start Leche fermentada.

@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Diagrama tipo mapa conceptual sobre Buenas Prácticas de Manufactura (BPM) en derivados lácteos. Incluye cuatro secciones principales: normativa y BPM, condiciones sanitarias de producción, elaboración de productos lácteos y empaque/control de calidad. Cada sección se divide en subtemas como higiene, limpieza, tipos de productos (yogur, mantequilla, dulces), almacenamiento y registros de proceso.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto

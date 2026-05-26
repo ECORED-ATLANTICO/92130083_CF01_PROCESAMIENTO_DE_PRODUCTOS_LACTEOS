@@ -336,7 +336,7 @@
               span Salado: se adiciona sal al gusto (entre 2 ‑ 5 %).
             li
               i.lista-ul__vineta-check.mb-2
-              span Maduración: se mantiene en recipiente abierto o tapado por 1 ‑ 3 días
+              span Maduración: se mantiene en recipiente abierto o tapado por 1 ‑ 3 días.
             li
               i.lista-ul__vineta-check.mb-0
               span Envasado y refrigeración.
@@ -346,7 +346,7 @@
           img(src='@/assets/curso/tema3/img_22.png', class="img-fluid")
 
     .cajon.color-primario.p-4.mb-5(data-aos="zoom-in-right")
-      p.mb-0 Usos: acompañante de arepas, fríjoles, yuca; base para salsas; ingrediente en panadería.\
+      p.mb-0 Usos: acompañante de arepas, fríjoles, yuca; base para salsas; ingrediente en panadería.
 
     p.mb-5(data-aos="zoom-in-right") Recomendaciones sanitarias: utilizar suero de leche pasteurizada para evitar riesgos; controlar acidez y salinidad como factores de conservación.
 
@@ -405,7 +405,7 @@
               span Bicarbonato de sodio (0,1 0,3 partes para ajustar pH y evitar corte).
             li
               i.lista-ul__vineta-check.mb-0
-              span Opcional: glucosa (para evitar cristalización), vainilla, esencia de café
+              span Opcional: glucosa (para evitar cristalización), vainilla, esencia de café.
 
       .col-10.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
