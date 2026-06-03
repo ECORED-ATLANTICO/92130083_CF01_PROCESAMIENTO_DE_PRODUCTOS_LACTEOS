@@ -455,21 +455,23 @@
             img(src='@/assets/curso/tema3/img_30.svg', class="img-fluid d-block d-lg-none", alt="La figura 5 describe la curva de concentración y punto final del arequipe  60 °Brix: inicio de formación de espuma. 65 °Brix: comienza a espesar. 70 °Brix: punto de pasta blanda (para untar). 72‑75 °Brix: punto final para arequipe tradicional. 78 °Brix: textura muy firme, riesgo de cristalización.").mb-3
             figcaption Nota. SENA, (2026).
 
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-lg-10.mb-3
           .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-          p.mb-3 Puntos críticos:
-          ul.lista-ul.lista-ul--check
-            li
-              i.lista-ul__vineta-check.mb-2
-              span Control de acidez inicial para evitar corte.
-            li
-              i.lista-ul__vineta-check.mb-2
-              span Agitación constante para evitar quemaduras.
-            li
-              i.lista-ul__vineta-check.mb-2
-              span Medición exacta de sólidos solubles.
-            li
-              i.lista-ul__vineta-check.mb-0
-              span Envasado aséptico para garantizar vida útil
+            p.mb-3 <b>Puntos críticos:</b>
+            ul.lista-ul.lista-ul--check
+              li
+                i.lista-ul__vineta-check.mb-2
+                span Control de acidez inicial para evitar corte.
+              li
+                i.lista-ul__vineta-check.mb-2
+                span Agitación constante para evitar quemaduras.
+              li
+                i.lista-ul__vineta-check.mb-2
+                span Medición exacta de sólidos solubles.
+              li
+                i.lista-ul__vineta-check.mb-0
+                span Envasado aséptico para garantizar vida útil
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono
