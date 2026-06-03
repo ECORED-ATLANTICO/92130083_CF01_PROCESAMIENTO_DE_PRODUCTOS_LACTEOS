@@ -25,7 +25,7 @@
 
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MNgw9Sk2mdw?si=l0oO6wgc5S3wVQo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Procedimientos para la producción higiénica de derivados lácteos.
     Separador
 
@@ -44,7 +44,7 @@
           h4.subtitulo-destacado__texto Yogur: clasificación, proceso y control de puntos críticos
 
       .cajon.color-acento-contenido.p-4.mb-5(data-aos="zoom-in-right")
-        p.mb-0 El yogur es el producto de la fermentación de la leche pasteurizada por Lactobacillus delbrueckii subsp. bulgaricus y Streptococcus thermophilus, que deben estar vivas hasta el consumo. La simbiosis entre estas dos bacterias genera ácido láctico, compuestos aromáticos y una textura característica.
+        p.mb-0 El yogur es el producto de la fermentación de la leche pasteurizada por <em>Lactobacillus delbrueckii subsp. bulgaricus y Streptococcus thermophilus</em>, que deben estar vivas hasta el consumo. La simbiosis entre estas dos bacterias genera ácido láctico, compuestos aromáticos y una textura característica.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-8.order-2.order-lg-1
@@ -175,7 +175,7 @@
               img(src="@/assets/curso/tema3/img_9.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Pasteurización
-            p.mb-3 tiempo/temperatura. Límite crítico: al menos 85 °C por 5 min. Acción correctiva: detener flujo, recalibrar, repetir tratamiento.
+            p.mb-3 Tiempo/temperatura. Límite crítico: al menos 85 °C por 5 min. Acción correctiva: detener flujo, recalibrar, repetir tratamiento.
       .col-12.col-lg-6.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -183,15 +183,15 @@
               img(src="@/assets/curso/tema3/img_10.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Temperatura de incubación
-            p.mb-3 debe estar entre 42‑45 °C. Si se desvía, se puede afectar la velocidad de fermentación.
+            p.mb-3 Debe estar entre 42 ‑ 45 °C. Si se desvía, se puede afectar la velocidad de fermentación.
       .col-12.col-lg-6.mb-4.mb-lg-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/img_11.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 pH final
-            p.mb-3 4,4‑4,6. Si es menor, hay sobre acidificación y sinéresis; si es mayor, textura débil y riesgo de contaminación.
+            h4.mb-3 PH final
+            p.mb-3 4,4 ‑ 4,6. Si es menor, hay sobre acidificación y sinéresis; si es mayor, textura débil y riesgo de contaminación.
       .col-12.col-lg-6.mb-4.mb-lg-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -199,7 +199,7 @@
               img(src="@/assets/curso/tema3/img_12.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Enfriamiento rápido
-            p.mb-3 alcanzar ≤6 °C en <2 h. Si es más lento, la fermentación continúa y se puede producir sinéresis.
+            p.mb-3 Alcanzar ≤6 °C en <2 h. Si es más lento, la fermentación continúa y se puede producir sinéresis.
     
     .tarjeta.color-terciario-10.p-4.rounded-3.mb-4(data-aos="zoom-in-right")
       p.mb-0 Los principales parámetros de control en la elaboración de yogur, necesarios para asegurar la calidad e inocuidad del producto. Incluye variables como temperatura, tiempo, pH y condiciones de fermentación, que deben ser monitoreadas y controladas para garantizar un proceso adecuado y un producto final seguro.
@@ -219,35 +219,35 @@
             th.col-auto.col-lg-3 Método
         tbody
           tr
-            td.text-start Sólidos no grasos.
-            td.text-start ≥ 8,5 %.
-            td.text-start Por lote.
-            td.text-start Método de secado en estufa.
+            td.text-start Sólidos no grasos
+            td.text-start ≥ 8,5 %
+            td.text-start Por lote
+            td.text-start Método de secado en estufa
           tr
-            td.text-start Acidez titulable.
-            td.text-start 0,6 1,2 % (ácido láctico).
-            td.text-start Cada hora de fermentación.
-            td.text-start Titulación con NaOH 0,1 N.
+            td.text-start Acidez titulable
+            td.text-start 0,6 1,2 % (ácido láctico)
+            td.text-start Cada hora de fermentación
+            td.text-start Titulación con NaOH 0,1 N
           tr
-            td.text-start pH.
-            td.text-start 4,4 4,6.
-            td.text-start Continuo.
-            td.text-start pH metro calibrado.
+            td.text-start pH
+            td.text-start 4,4 4,6
+            td.text-start Continuo
+            td.text-start pH metro calibrado
           tr
-            td.text-start Recuento bacterias lácticas.
-            td.text-start ≥ 10⁷ UFC/g (hasta fin vida útil).
+            td.text-start Recuento bacterias lácticas
+            td.text-start ≥ 10⁷ UFC / g (hasta fin vida útil)
             td.text-start Semanal.
-            td.text-start Siembra en MRS y M17.
+            td.text-start Siembra en MRS y M17
           tr
             td.text-start Viscosidad.
-            td.text-start 2000 5000 cP (según tipo).
-            td.text-start Por lote.
-            td.text-start Viscosímetro rotacional.
+            td.text-start 2000 5000 cP (según tipo)
+            td.text-start Por lote
+            td.text-start Viscosímetro rotacional
           tr
-            td.text-start Sinéresis.
-            td.text-start Ausencia visible.
-            td.text-start Diario.
-            td.text-start Inspección visual.
+            td.text-start Sinéresis
+            td.text-start Ausencia visible
+            td.text-start Diario
+            td.text-start Inspección visual
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono
@@ -258,7 +258,7 @@
     .bg_img_13.mb-0
 
       .cajon.color-primario.p-4.mb-5(data-aos="zoom-in-right")
-        p.mb-0 El kumis es una leche fermentada tradicional, con sabor ácido, ligeramente alcohólico (máx 1,5 % v/v) y efervescente, producida por la acción de bacterias lácticas y levaduras (Kluyveromyces marxianus, Saccharomyces sp.). En Colombia se regula con NTC 1507.
+        p.mb-0 El kumis es una leche fermentada tradicional, con sabor ácido, ligeramente alcohólico (máx 1,5 % v/v) y efervescente, producida por la acción de bacterias lácticas y levaduras (<em>Kluyveromyces marxianus, Saccharomyces sp.</em>). En Colombia se regula con NTC 1507.
 
       .row.justify-content-center.align-items-center.mb-5 
         .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
@@ -270,27 +270,27 @@
               .tarjeta--color-white.h-100
                 .tarjeta--11
                 h5.text-center.mb-3 Leche pasteurizada:
-                p.mb-3 enfriar a 20‑25 °C.
+                p.mb-3 Enfriar a 20 ‑ 25 °C.
               .tarjeta--color-white.h-100
                 .tarjeta--12
                 h5.text-center.mb-3 Inoculación:
-                p.mb-3 añadir cultivo iniciador (kumis fermento) que contiene bacterias lácticas y levaduras. Puede ser un cultivo comercial o una porción de un lote anterior.
+                p.mb-3 Añadir cultivo iniciador (kumis fermento) que contiene bacterias lácticas y levaduras. Puede ser un cultivo comercial o una porción de un lote anterior.
               .tarjeta--color-white.h-100
                 .tarjeta--13
                 h5.text-center.mb-3 Fermentación:
-                p.mb-3 a 20‑25 °C durante 12‑24 horas, con agitación ocasional para oxigenar y favorecer el desarrollo de levaduras.
+                p.mb-3 A 20 ‑ 25 °C durante 12 ‑ 24 horas, con agitación ocasional para oxigenar y favorecer el desarrollo de levaduras.
               .tarjeta--color-white.h-100
                 .tarjeta--14
                 h5.text-center.mb-3 Enfriamiento:
-                p.mb-3 una vez alcanzada la acidez (0,7‑1,3 %) y efervescencia deseadas, enfriar a 4‑6 °C para detener la fermentación.
+                p.mb-3 Una vez alcanzada la acidez (0,7 ‑ 1,3 %) y efervescencia deseadas, enfriar a 4 ‑ 6 °C para detener la fermentación.
               .tarjeta--color-white.h-100
                 .tarjeta--15
                 h5.text-center.mb-3 Envasado:
-                p.mb-3 en envases herméticos (vidrio o plástico) para retener CO₂.
+                p.mb-3 En envases herméticos (vidrio o plástico) para retener CO₂.
               .tarjeta--color-white.h-100
                 .tarjeta--16
                 h5.text-center.mb-3 Almacenamiento:
-                p.mb-3 refrigeración (2‑6 °C), vida útil corta (10‑14 días).
+                p.mb-3 Refrigeración (2 ‑ 6 °C), vida útil corta (10 ‑ 14 días).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -336,7 +336,7 @@
               span Salado: se adiciona sal al gusto (entre 2 ‑ 5 %).
             li
               i.lista-ul__vineta-check.mb-2
-              span Maduración: se mantiene en recipiente abierto o tapado por 1 ‑ 3 días.
+              span Maduración: se mantiene en recipiente abierto o tapado por 1 ‑ 3 días, con agitación diaria.
             li
               i.lista-ul__vineta-check.mb-0
               span Envasado y refrigeración.
@@ -367,14 +367,14 @@
                 figure
                   img(src='@/assets/curso/tema3/img_24.svg' alt='')
               h5.text-center.mb-3 Kéfir:
-              p.mb-0 fermentado con gránulos de kéfir (consorcio de bacterias y levaduras). Sabor efervescente, bajo alcohol (0,5 1,5 %). Puede elaborarse con leche o agua (kéfir de agua). Los gránulos se reutilizan y crecen.
+              p.mb-0 Fermentado con gránulos de kéfir (consorcio de bacterias y levaduras). Sabor efervescente, bajo alcohol (0,5 1,5 %). Puede elaborarse con leche o agua (kéfir de agua). Los gránulos se reutilizan y crecen.
           .col-12.col-lg-6.mb-3.mb-lg-0.mt-4.mt-lg-0.pt-4.d-flex(data-aos="zoom-in-right")
             .tarjeta-icono-top.color-secundario-10.h-100
               .tarjeta-icono-top__icono
                 figure
                   img(src='@/assets/curso/tema3/img_25.svg' alt='')
               h5.text-center.mb-3 Leche acidófila:
-              p.mb-0 fermentada con Lactobacillus acidophilus. Sabor suave, propiedades probióticas. Se elabora de manera similar al yogur pero con una sola bacteria y a menor temperatura (37 40 °C).
+              p.mb-0 Fermentada con Lactobacillus acidophilus. Sabor suave, propiedades probióticas. Se elabora de manera similar al yogur pero con una sola bacteria y a menor temperatura (37 - 40 °C).
 
     Separador
 
@@ -421,25 +421,25 @@
         LineaTiempoD.color-secundario-10
           .row.justify-content-center.align-items-center(numero="1" titulo="Selección de leche:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 preferiblemente entera, con baja acidez (máx 18 °Dornic).
+              p.mb-0 Preferiblemente entera, con baja acidez (máx 18 °Dornic).
           .row.justify-content-center.align-items-center(numero="2" titulo="Ajuste de pH:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 se agrega bicarbonato para neutralizar la acidez y evitar que la leche se corte al calentar. pH objetivo: 6,6‑6,8.
+              p.mb-0 Se agrega bicarbonato para neutralizar la acidez y evitar que la leche se corte al calentar. pH objetivo: 6,6‑6,8.
           .row.justify-content-center.align-items-center(numero="3" titulo="Calentamiento:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 se lleva a ebullición y se agrega azúcar poco a poco, revolviendo constantemente.
+              p.mb-0 Se lleva a ebullición y se agrega azúcar poco a poco, revolviendo constantemente.
           .row.justify-content-center.align-items-center(numero="4" titulo="Concentración:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 se continúa calentando con agitación constante hasta alcanzar 72‑75 °Brix (punto de consistencia). El punto final se verifica con refractómetro o prueba de gota en agua fría.
+              p.mb-0 Se continúa calentando con agitación constante hasta alcanzar 72‑75 °Brix (punto de consistencia). El punto final se verifica con refractómetro o prueba de gota en agua fría.
           .row.justify-content-center.align-items-center(numero="5" titulo="Enfriamiento:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 se enfría rápidamente a 50‑60 °C para evitar cristalización.
+              p.mb-0 Se enfría rápidamente a 50‑60 °C para evitar cristalización.
           .row.justify-content-center.align-items-center(numero="6" titulo="Envasado:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 en caliente, en envases de vidrio, plástico o latas, asegurando hermeticidad.
+              p.mb-0 En caliente, en envases de vidrio, plástico o latas, asegurando hermeticidad.
           .row.justify-content-center.align-items-center(numero="7" titulo="Almacenamiento:")
             .col-12.col-lg-12.mb-md-0
-              p.mb-0 a temperatura ambiente (si es envasado asépticamente) o refrigerado.
+              p.mb-0 A temperatura ambiente (si es envasado asépticamente) o refrigerado.
 
     p.mb-5(data-aos="zoom-in-right") Este control es clave para asegurar la textura, el color y la consistencia característicos del producto, evitando defectos por sobre o subcocción.
 
@@ -454,6 +454,22 @@
             img(src='@/assets/curso/tema3/img_29.svg', class="img-fluid d-none d-lg-block", alt="La figura 5 describe la curva de concentración y punto final del arequipe  60 °Brix: inicio de formación de espuma. 65 °Brix: comienza a espesar. 70 °Brix: punto de pasta blanda (para untar). 72‑75 °Brix: punto final para arequipe tradicional. 78 °Brix: textura muy firme, riesgo de cristalización.").mb-3
             img(src='@/assets/curso/tema3/img_30.svg', class="img-fluid d-block d-lg-none", alt="La figura 5 describe la curva de concentración y punto final del arequipe  60 °Brix: inicio de formación de espuma. 65 °Brix: comienza a espesar. 70 °Brix: punto de pasta blanda (para untar). 72‑75 °Brix: punto final para arequipe tradicional. 78 °Brix: textura muy firme, riesgo de cristalización.").mb-3
             figcaption Nota. SENA, (2026).
+
+          .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
+          p.mb-3 Puntos críticos:
+          ul.lista-ul.lista-ul--check
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Control de acidez inicial para evitar corte.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Agitación constante para evitar quemaduras.
+            li
+              i.lista-ul__vineta-check.mb-2
+              span Medición exacta de sólidos solubles.
+            li
+              i.lista-ul__vineta-check.mb-0
+              span Envasado aséptico para garantizar vida útil
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono
@@ -554,31 +570,31 @@
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla con sal: 
-                p.mb-3 se le adiciona sal como conservante y para realzar el sabor. 
+                p.mb-3 Se le adiciona sal como conservante y para realzar el sabor. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla sin sal: 
-                p.mb-3 solo contiene sal, ideal para repostería y preparaciones donde se controla el sodio. 
+                p.mb-3 Solo contiene sal, ideal para repostería y preparaciones donde se controla el sodio. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla clarificada: 
-                p.mb-3 se elimina el agua y los sólidos lácteos, quedando solo la grasa; es más estable al calor. 
+                p.mb-3 Se elimina el agua y los sólidos lácteos, quedando solo la grasa; es más estable al calor. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
-                h5.text-center.mb-3 Mantequilla tipo ghee: 
-                p.mb-3 similar a la clarificada, pero con un proceso adicional que le da un sabor más intenso. 
+                h5.text-center.mb-3 Mantequilla tipo <em>ghee</em>: 
+                p.mb-3 Similar a la clarificada, pero con un proceso adicional que le da un sabor más intenso. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla cultivada: 
-                p.mb-3 elaborada a partir de crema fermentada, con un sabor más ácido y aromático. 
+                p.mb-3 Elaborada a partir de crema fermentada, con un sabor más ácido y aromático. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
-                h5.text-center.mb-3 Mantequilla light: 
-                p.mb-3 contiene menos grasa, generalmente mezclada con agua u otros componentes. 
+                h5.text-center.mb-3 Mantequilla <em>light</em>: 
+                p.mb-3 Contiene menos grasa, generalmente mezclada con agua u otros componentes. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla compuesta: 
-                p.mb-3 mezclada con ingredientes como hierbas, ajo o especias para usos culinarios específicos.
+                p.mb-3 Mezclada con ingredientes como hierbas, ajo o especias para usos culinarios específicos.
 
       h5.mb-3(data-aos="zoom-in-right") Proceso de elaboración: batido, desuerado, lavado y amasado
 
@@ -596,7 +612,7 @@
             div(titulo="Maduración:")
               p.mb-0 Consiste en enfriar la crema a 5 – 10 °C y mantenerla entre 4 y 12 horas. Durante este tiempo ocurre la cristalización parcial de la grasa, lo que favorece una mejor textura, mayor rendimiento en el batido y características sensoriales adecuadas. 
             div(titulo="Batido y desuerado:")
-              p.mb-0 La crema se agita mecánicamente, provocando la inversión de la emulsión (de grasa en agua a agua en grasa). Se forman gránulos de mantequilla y se libera el suero de mantequilla (buttermilk), el cual es retirado para reducir la humedad y mejorar la conservación. 
+              p.mb-0 La crema se agita mecánicamente, provocando la inversión de la emulsión (de grasa en agua a agua en grasa). Se forman gránulos de mantequilla y se libera el suero de mantequilla (<em>buttermilk</em>), el cual es retirado para reducir la humedad y mejorar la conservación. 
             div(titulo="Lavado y amasado:")
               p.mb-0 Se realiza un lavado con agua fría (2 – 5 °C) para eliminar residuos de suero y lactosa. Luego, mediante el amasado, se obtiene una masa homogénea, se distribuye uniformemente la humedad y se mejora la textura final del producto. 
             div(titulo="Salado, moldeado y envasado:")
@@ -637,33 +653,33 @@
             th.col-auto.col-lg-4 Método de análisis
         tbody
           tr
-            td.text-start Grasa butírica.
-            td.text-start Mínimo 80 %.
-            td.text-start Método de Schmid Bondzynski Ratzlaff.
+            td.text-start Grasa butírica
+            td.text-start Mínimo 80 %
+            td.text-start Método de Schmid Bondzynski Ratzlaff
           tr
-            td.text-start Humedad.
-            td.text-start Máximo 16 %.
-            td.text-start Secado en estufa.
+            td.text-start Humedad
+            td.text-start Máximo 16 %
+            td.text-start Secado en estufa
           tr
-            td.text-start Extracto seco magro.
-            td.text-start Máximo 2 %.
-            td.text-start Cálculo por diferencia.
+            td.text-start Extracto seco magro
+            td.text-start Máximo 2 %
+            td.text-start Cálculo por diferencia
           tr
-            td.text-start Acidez de la grasa.
-            td.text-start Máximo 3 % (como ácido oleico).
-            td.text-start Titulación.
+            td.text-start Acidez de la grasa
+            td.text-start Máximo 3 % (como ácido oleico)
+            td.text-start Titulación
           tr
-            td.text-start Índice de peróxidos.
-            td.text-start < 1 meq O₂ / kg.
-            td.text-start Valoración con tiosulfato.
+            td.text-start Índice de peróxidos
+            td.text-start < 1 meq O₂ / kg
+            td.text-start Valoración con tiosulfato
           tr
-            td.text-start Recuento de coliformes.
-            td.text-start < 10 UFC / g.
-            td.text-start Siembra en agar VRBA.
+            td.text-start Recuento de coliformes
+            td.text-start < 10 UFC / g
+            td.text-start Siembra en agar VRBA
           tr
-            td.text-start Salmonella.
-            td.text-start Ausente en 25 g.
-            td.text-start Método NTC.
+            td.text-start Salmonella
+            td.text-start Ausente en 25 g
+            td.text-start Método NTC
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.order-2.order-lg-1.mb-0

@@ -31,7 +31,7 @@
         .col-12.col-lg-12.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure.mb-2
             .video.mb-2
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/PUfayUlEAOo?si=6eDFHmzbXLjF1ttk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video: Buenas Prácticas de Manufactura BPM, empaque de s y elaboración de derivados lácteos.
   
 </template>

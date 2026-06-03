@@ -49,33 +49,33 @@
             th.col-auto.col-lg-3 Frecuencia de verificación
         tbody
           tr
-            td.text-start Pisos.
-            td.text-start Impermeables, antideslizantes, pendiente ≥1 % hacia drenajes, sin grietas.
-            td.text-start Diario.
+            td.text-start Pisos
+            td.text-start Impermeables, antideslizantes, pendiente ≥1 % hacia drenajes, sin grietas
+            td.text-start Diario
           tr
-            td.text-start Paredes.
-            td.text-start Lisas, color claro, lavables, ángulos redondeados.
-            td.text-start Semanal.
+            td.text-start Paredes
+            td.text-start Lisas, color claro, lavables, ángulos redondeados
+            td.text-start Semanal
           tr
-            td.text-start Techos.
-            td.text-start Evitar condensación; si son falsos, accesibles para limpieza.
-            td.text-start Mensual.
+            td.text-start Techos
+            td.text-start Evitar condensación; si son falsos, accesibles para limpieza
+            td.text-start Mensual
           tr
-            td.text-start Iluminación.
-            td.text-start Mínimo 540 lux en áreas de proceso; lámparas con cubierta protectora.
-            td.text-start Mensual.
+            td.text-start Iluminación
+            td.text-start Mínimo 540 lux en áreas de proceso; lámparas con cubierta protectora
+            td.text-start Mensual
           tr
-            td.text-start Ventilación.
-            td.text-start Presión positiva en zonas limpias, filtros de aire clase HEPA si es necesario.
-            td.text-start Trimestral.
+            td.text-start Ventilación
+            td.text-start Presión positiva en zonas limpias, filtros de aire clase HEPA si es necesario
+            td.text-start Trimestral
           tr
-            td.text-start Drenajes.
-            td.text-start Rejillas removibles, sifón para evitar malos olores.
-            td.text-start Semanal.
+            td.text-start Drenajes
+            td.text-start Rejillas removibles, sifón para evitar malos olores
+            td.text-start Semanal
           tr
-            td.text-start Equipos.
-            td.text-start Acero inoxidable AISI 304 o 316, superficies lisas, fácil desmontaje, calibración periódica.
-            td.text-start Según plan de mantenimiento.
+            td.text-start Equipos
+            td.text-start Acero inoxidable AISI 304 o 316, superficies lisas, fácil desmontaje, calibración periódica
+            td.text-start Según plan de mantenimiento
 
     p.mb-5(data-aos="zoom-in-right") Los requisitos presentados anteriormente permiten identificar las condiciones básicas que deben cumplir las instalaciones y los equipos en una planta de derivados lácteos. Sin embargo, para su adecuada aplicación, es necesario comprender con mayor detalle el propósito de cada uno de estos elementos.
 
@@ -273,25 +273,25 @@
             th.col-auto.col-lg-3 Observaciones
         tbody
           tr
-            td.text-start Hipoclorito de sodio.
-            td.text-start 100 – 200 ppm.
-            td.text-start 5 – 10 minutos.
-            td.text-start Corrosivo, requiere enjuague.
+            td.text-start Hipoclorito de sodio
+            td.text-start 100 – 200 ppm
+            td.text-start 5 – 10 minutos
+            td.text-start Corrosivo, requiere enjuague
           tr
-            td.text-start Amonios cuaternarios.
-            td.text-start 200 – 400 ppm (seguir etiqueta).
-            td.text-start 10 minutos.
-            td.text-start No enjuagar en superficies no críticas.
+            td.text-start Amonios cuaternarios
+            td.text-start 200 – 400 ppm (seguir etiqueta)
+            td.text-start 10 minutos
+            td.text-start No enjuagar en superficies no críticas
           tr
-            td.text-start Yodóforos.
-            td.text-start 12,5 – 25 ppm.
-            td.text-start 2 – 5 minutos.
-            td.text-start Puede manchar.
+            td.text-start Yodóforos
+            td.text-start 12,5 – 25 ppm
+            td.text-start 2 – 5 minutos
+            td.text-start Puede manchar
           tr
-            td.text-start Ácido peracético.
-            td.text-start 100 – 200 ppm.
-            td.text-start 1 – 5 minutos.
-            td.text-start Activo a baja temperatura.
+            td.text-start Ácido peracético
+            td.text-start 100 – 200 ppm
+            td.text-start 1 – 5 minutos
+            td.text-start Activo a baja temperatura
 
     Separador
 
@@ -309,15 +309,15 @@
         .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Prevención (medidas pasivas)")
-              p.mb-0 sellado de grietas, mallas en ventanas, orden y limpieza, manejo adecuado de residuos, almacenamiento de materias primas en recipientes cerrados.
+              p.mb-0 Sellado de grietas, mallas en ventanas, orden y limpieza, manejo adecuado de residuos, almacenamiento de materias primas en recipientes cerrados.
             div(titulo="Monitoreo")
-              p.mb-0 inspecciones periódicas (al menos semanales) con formato, uso de trampas (pegajosas para insectos, cebos para roedores) que se revisan y registran.
+              p.mb-0 Inspecciones periódicas (al menos semanales) con formato, uso de trampas (pegajosas para insectos, cebos para roedores) que se revisan y registran.
             div(titulo="Control físico")
-              p.mb-0 trampas de luz, trampas de golpe, barreras físicas.
+              p.mb-0 Trampas de luz, trampas de golpe, barreras físicas.
             div(titulo="Control químico")
-              p.mb-0 aplicado solo por empresas autorizadas (con registro ICA), con registro de productos, dosis, ubicación y fecha. El personal de la planta nunca debe manipular plaguicidas.
+              p.mb-0 Aplicado solo por empresas autorizadas (con registro ICA), con registro de productos, dosis, ubicación y fecha. El personal de la planta nunca debe manipular plaguicidas.
             div(titulo="Evaluación")
-              p.mb-0 seguimiento de la efectividad a través de la disminución de capturas en trampas y la ausencia de evidencias.
+              p.mb-0 Seguimiento de la efectividad a través de la disminución de capturas en trampas y la ausencia de evidencias.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema2/img_15.png', class="img-fluid")
@@ -329,17 +329,17 @@
         .tarjeta--color-white.h-100
           .tarjeta--04
           h5.text-center.mb-3 Directa
-          p.mb-3 contacto entre materia prima contaminada y producto terminado.
+          p.mb-3 Contacto entre materia prima contaminada y producto terminado.
       .col-12.col-md-6.col-lg-4.mb-3
         .tarjeta--color-white.h-100
           .tarjeta--05
           h5.text-center.mb-3 Indirecta
-          p.mb-3 a través de utensilios, manos, trapos, equipos no desinfectados.
+          p.mb-3 A través de utensilios, manos, trapos, equipos no desinfectados.
       .col-12.col-md-6.col-lg-4.mb-3
         .tarjeta--color-white.h-100
           .tarjeta--06
           h5.text-center.mb-3 Por vectores
-          p.mb-3 insectos, roedores, aves.
+          p.mb-3 Insectos, roedores, aves.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -444,19 +444,19 @@
               .tarjeta--color-white.h-100
                 .tarjeta--07
                 h5.text-center.mb-3 Productos secos
-                p.mb-3 lugar fresco (≤25 °C), seco (humedad <60 %), sobre estibas separadas del piso (≥15 cm) y de la pared (≥50 cm) para facilitar limpieza e inspección.
+                p.mb-3 Lugar fresco (≤25 °C), seco (humedad <60 %), sobre estibas separadas del piso (≥15 cm) y de la pared (≥50 cm) para facilitar limpieza e inspección.
               .tarjeta--color-white.h-100
                 .tarjeta--08
                 h5.text-center.mb-3 Refrigerados
-                p.mb-3 cámaras a 2 5 °C, con control de temperatura y humedad.
+                p.mb-3 Cámaras a 2 5 °C, con control de temperatura y humedad.
               .tarjeta--color-white.h-100
                 .tarjeta--09
                 h5.text-center.mb-3 Congelados
-                p.mb-3 a -18 °C o menos, con sistema de alarma por falla.
+                p.mb-3 A -18 °C o menos, con sistema de alarma por falla.
               .tarjeta--color-white.h-100
                 .tarjeta--10
                 h5.text-center.mb-3 Rotación
-                p.mb-3 método PEPS (primero en entrar, primero en salir) para evitar vencimientos. Se organizan los   productos en estanterías de manera que los más antiguos queden al frente.
+                p.mb-3 Método PEPS (primero en entrar, primero en salir) para evitar vencimientos. Se organizan los   productos en estanterías de manera que los más antiguos queden al frente.
 </template>
 
 <script>

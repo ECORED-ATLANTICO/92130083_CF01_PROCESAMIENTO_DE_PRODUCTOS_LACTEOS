@@ -73,40 +73,40 @@
             th.col-auto.col-lg-3 Precauciones
         tbody
           tr
-            td.text-start PEAD (Polietileno alta densidad).
-            td.text-start Tapas, botellas para yogur bebible.
-            td.text-start Resistente, económico, barrera a humedad.
-            td.text-start Permeabilidad al O₂ media.
+            td.text-start PEAD (Polietileno alta densidad)
+            td.text-start Tapas, botellas para yogur bebible
+            td.text-start Resistente, económico, barrera a humedad
+            td.text-start Permeabilidad al O₂ media
           tr
-            td.text-start PET (Polietileno tereftalato).
-            td.text-start Botellas para yogur bebible.
-            td.text-start Transparente, liviano, barrera a gases.
-            td.text-start No resiste llenado > 70 °C.
+            td.text-start PET (Polietileno tereftalato)
+            td.text-start Botellas para yogur bebible
+            td.text-start Transparente, liviano, barrera a gases
+            td.text-start No resiste llenado > 70 °C
           tr
-            td.text-start PP (Polipropileno).
-            td.text-start Tarrinas para yogur.
-            td.text-start Resistente térmico (hasta 120 °C), apto autoclave.
-            td.text-start Menor transparencia.
+            td.text-start PP (Polipropileno)
+            td.text-start Tarrinas para yogur
+            td.text-start Resistente térmico (hasta 120 °C), apto autoclave
+            td.text-start Menor transparencia
           tr
-            td.text-start PS (Poliestireno).
-            td.text-start Vasos desechables.
-            td.text-start Bajo costo.
-            td.text-start Baja resistencia térmica.
+            td.text-start PS (Poliestireno)
+            td.text-start Vasos desechables
+            td.text-start Bajo costo
+            td.text-start Baja resistencia térmica
           tr
-            td.text-start Vidrio.
-            td.text-start Potes para kumis, arequipe.
-            td.text-start Inerte, barrera total, reutilizable.
-            td.text-start Frágil, pesado.
+            td.text-start Vidrio
+            td.text-start Potes para kumis, arequipe
+            td.text-start Inerte, barrera total, reutilizable
+            td.text-start Frágil, pesado
           tr
-            td.text-start Brick multicapa (papel + Al + PE).
-            td.text-start Yogur bebible, leches fermentadas.
-            td.text-start Excelente barrera, ligero.
-            td.text-start No apto para microondas si contiene Al.
+            td.text-start Brick multicapa (papel + Al + PE)
+            td.text-start Yogur bebible, leches fermentadas
+            td.text-start Excelente barrera, ligero
+            td.text-start No apto para microondas si contiene Al
           tr
-            td.text-start Hojalata.
-            td.text-start Latas para arequipe.
-            td.text-start Barrera total, larga vida útil.
-            td.text-start Riesgo de corrosión sin barniz interno.
+            td.text-start Hojalata
+            td.text-start Latas para arequipe
+            td.text-start Barrera total, larga vida útil
+            td.text-start Riesgo de corrosión sin barniz interno
 
     Separador
 
@@ -122,11 +122,11 @@
         .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Almacenamiento de envases:")
-              p.mb-0 los envases deben almacenarse en áreas limpias, secas, a temperatura ambiente, protegidos de la luz solar directa.
+              p.mb-0 Los envases deben almacenarse en áreas limpias, secas, a temperatura ambiente, protegidos de la luz solar directa.
             div(titulo="Control previo del envasado:")
-              p.mb-0 antes del llenado, se debe verificar la integridad de los sellos y la ausencia de contaminación.
+              p.mb-0 Antes del llenado, se debe verificar la integridad de los sellos y la ausencia de contaminación.
             div(titulo="Condiciones de conservación del producto:")
-              p.mb-0 el producto envasado se conserva según indicaciones: refrigeración (2 6 °C) para yogur y kumis; ambiente fresco (≤25 °C) para arequipe envasado asépticamente; refrigeración (0 4 °C) para mantequilla.
+              p.mb-0 El producto envasado se conserva según indicaciones: refrigeración (2 6 °C) para yogur y kumis; ambiente fresco (≤25 °C) para arequipe envasado asépticamente; refrigeración (0 4 °C) para mantequilla.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema4/img_5.png', class="img-fluid")
@@ -192,30 +192,30 @@
             th.col-auto.col-lg-3 Medidas de control
         tbody
           tr
-            td.text-start Físico.
-            td.text-start Pisos húmedos, temperaturas extremas (vapor, frío), ruido (> 85 dB), iluminación deficiente.
-            td.text-start Caídas, quemaduras, hipoacusia, golpes.
-            td.text-start Pisos antideslizantes, señalización, EPP, mantenimiento.
+            td.text-start Físico
+            td.text-start Pisos húmedos, temperaturas extremas (vapor, frío), ruido (> 85 dB), iluminación deficiente
+            td.text-start Caídas, quemaduras, hipoacusia, golpes
+            td.text-start Pisos antideslizantes, señalización, EPP, mantenimiento
           tr
-            td.text-start Químico.
-            td.text-start Productos de limpieza (sosa, ácido), refrigerantes (amoniaco), aditivos.
-            td.text-start Quemaduras químicas, intoxicaciones, irritación respiratoria.
-            td.text-start Fichas de seguridad, áreas ventiladas, EPP específico.
+            td.text-start Químico
+            td.text-start Productos de limpieza (sosa, ácido), refrigerantes (amoniaco), aditivos
+            td.text-start Quemaduras químicas, intoxicaciones, irritación respiratoria
+            td.text-start Fichas de seguridad, áreas ventiladas, EPP específico
           tr
-            td.text-start Biológico.
-            td.text-start Exposición a patógenos en leche cruda, aerosoles.
-            td.text-start Infecciones, zoonosis (brucelosis, tuberculosis).
-            td.text-start Vacunación, EPP, áreas con presión positiva.
+            td.text-start Biológico
+            td.text-start Exposición a patógenos en leche cruda, aerosoles
+            td.text-start Infecciones, zoonosis (brucelosis, tuberculosis)
+            td.text-start Vacunación, EPP, áreas con presión positiva
           tr
-            td.text-start Ergonómico.
-            td.text-start Movimientos repetitivos (envasado), levantamiento de cargas (25 kg), posturas forzadas.
-            td.text-start Lesiones musculoesqueléticas.
-            td.text-start Rotación de tareas, ayudas mecánicas, pausas activas.
+            td.text-start Ergonómico
+            td.text-start Movimientos repetitivos (envasado), levantamiento de cargas (25 kg), posturas forzadas
+            td.text-start Lesiones musculoesqueléticas
+            td.text-start Rotación de tareas, ayudas mecánicas, pausas activas
           tr
-            td.text-start Psicosocial.
-            td.text-start Trabajo bajo presión, turnos rotativos, monotonía.
-            td.text-start Estrés, fatiga, accidentes por falta de atención.
-            td.text-start Programas de bienestar, comunicación efectiva.
+            td.text-start Psicosocial
+            td.text-start Trabajo bajo presión, turnos rotativos, monotonía
+            td.text-start Estrés, fatiga, accidentes por falta de atención
+            td.text-start Programas de bienestar, comunicación efectiva
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono
@@ -238,22 +238,22 @@
             th.col-auto.col-lg-auto EPP requerido
         tbody
           tr
-            td.text-start Recepción de leche.
-            td.text-start Calzado con punta de acero, overol, guantes de nitrilo, gafas de seguridad.
+            td.text-start Recepción de leche
+            td.text-start Calzado con punta de acero, overol, guantes de nitrilo, gafas de seguridad
           tr
-            td.text-start Sala de proceso (caliente).
-            td.text-start Guantes térmicos, delantal de cuero, careta facial, mangas de kevlar.
+            td.text-start Sala de proceso (caliente)
+            td.text-start Guantes térmicos, delantal de cuero, careta facial, mangas de kevlar
           tr
-            td.text-start Envasado.
-            td.text-start Tapabocas, redecilla, guantes desechables, calzado antideslizante.
+            td.text-start Envasado
+            td.text-start Tapabocas, redecilla, guantes desechables, calzado antideslizante
           tr
-            td.text-start Almacenamiento refrigerado.
-            td.text-start Ropa térmica, guantes de frío, calzado cerrado.
+            td.text-start Almacenamiento refrigerado
+            td.text-start Ropa térmica, guantes de frío, calzado cerrado
           tr
-            td.text-start Limpieza química.
-            td.text-start Guantes de neopreno, gafas panorámicas, overol impermeable, respirador con filtro químico.
+            td.text-start Limpieza química
+            td.text-start Guantes de neopreno, gafas panorámicas, overol impermeable, respirador con filtro químico
 
-    p.mb-4(data-aos="zoom-in-right") La figura muestra la señalización por colores según la norma técnica colombiana, utilizada para identificar riesgos, prohibiciones, obligaciones y condiciones de seguridad en la planta. Estos colores permiten una rápida interpretación visual, facilitando la prevención de accidentes y el cumplimiento de las medidas de seguridad industrial.
+    p.mb-4(data-aos="zoom-in-right") La figura describe la señalización por colores según la norma técnica colombiana, utilizada para identificar riesgos, prohibiciones, obligaciones y condiciones de seguridad en la planta. Estos colores permiten una rápida interpretación visual, facilitando la prevención de accidentes y el cumplimiento de las medidas de seguridad industrial.
 
     .bg_img_21.mb-0
 

@@ -22,7 +22,7 @@
       .h2(data-aos="fade-right") 1.1 Importancia de los derivados lácteos
     .mb-0 
 
-    p.mb-3(data-aos="zoom-in-right") Los derivados lácteos son productos obtenidos a partir de la leche mediante procesos tecnológicos físicos, químicos o biológicos que modifican sus características originales, con el fin de prolongar su vida  
+    p.mb-3(data-aos="zoom-in-right") Los derivados lácteos son productos obtenidos a partir de la leche mediante procesos tecnológicos físicos, químicos o biológicos que modifican sus características originales, con el fin de prolongar su vida útil, mejorar su conservación y diversificar su consumo.  
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -44,15 +44,15 @@
               .tarjeta--color-white.h-100
                 .tarjeta--01
                 h5.text-center.mb-3 Fermentados: 
-                p.mb-3 yogur, kumis, kéfir y suero costeño, obtenidos mediante la acción de microorganismos que modifican la textura, el sabor y aportan beneficios probióticos. 
+                p.mb-3 Yogur, kumis, kéfir y suero costeño, obtenidos mediante la acción de microorganismos que modifican la textura, el sabor y aportan beneficios probióticos. 
               .tarjeta--color-white.h-100
                 .tarjeta--02
                 h5.text-center.mb-3 Concentrados y dulces: 
-                p.mb-3 arequipe, manjar blanco y otros productos elaborados por concentración de la leche con azúcar, caracterizados por su alta demanda en la gastronomía tradicional. 
+                p.mb-3 Arequipe, manjar blanco y otros productos elaborados por concentración de la leche con azúcar, caracterizados por su alta demanda en la gastronomía tradicional. 
               .tarjeta--color-white.h-100
                 .tarjeta--03
                 h5.text-center.mb-3 Grasos: 
-                p.mb-3 mantequilla y crema de leche, obtenidos por separación de la grasa láctea, con amplio uso culinario e industrial. 
+                p.mb-3 Mantequilla y crema de leche, obtenidos por separación de la grasa láctea, con amplio uso culinario e industrial. 
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
@@ -164,34 +164,34 @@
             th.col-auto.col-lg-4 Objeto principal
         tbody
           tr
-            td.text-start Yogur.
-            td.text-start 805.
-            td.text-start 2015.
+            td.text-start Yogur
+            td.text-start 805
+            td.text-start 2015
             td.text-start Define requisitos fisicoquímicos (acidez 0.6 1.2 % ácido láctico), microbiológicos (bacterias lácticas ≥10⁷ UFC/g) y de rotulado.
           tr
-            td.text-start Kumis.
-            td.text-start 1507.
-            td.text-start 2016.
+            td.text-start Kumis
+            td.text-start 1507
+            td.text-start 2016
             td.text-start Especifica acidez 0.7 1.3 %, alcohol hasta 1.5 % v/v, presencia de levaduras.
           tr
-            td.text-start Suero costeño.
-            td.text-start 4973.
-            td.text-start 2005.
+            td.text-start Suero costeño
+            td.text-start 4973
+            td.text-start 2005
             td.text-start Establece requisitos para suero fermentado salado.
           tr
-            td.text-start Arequipe.
-            td.text-start 1307.
-            td.text-start 2018.
+            td.text-start Arequipe
+            td.text-start 1307
+            td.text-start 2018
             td.text-start Define sólidos totales mínimo 70 %, lactosa invertida mínima 12 %, pH 5.8 6.4.
           tr
-            td.text-start Mantequilla.
-            td.text-start 443.
-            td.text-start 2017.
+            td.text-start Mantequilla
+            td.text-start 443
+            td.text-start 2017
             td.text-start Especifica grasa butírica mínima 80 %, humedad máxima 16 %, acidez de la grasa máxima 3 % (ácido oleico).
           tr
-            td.text-start Leche fermentada.
-            td.text-start 4789.
-            td.text-start 2006.
+            td.text-start Leche fermentada
+            td.text-start 4789
+            td.text-start 2006
             td.text-start Clasificación y requisitos generales.
 
     .row.justify-content-center.align-items-center.mb-4
@@ -249,14 +249,14 @@
               figure
                 img(src='@/assets/curso/tema1/img_16.svg' alt='')
             h5.text-center.mb-3 POES (Procedimientos Operativos Estandarizados de Saneamiento)
-            p.mb-0 los cuales describen de manera clara y detallada cómo realizar la limpieza y desinfección de equipos, utensilios y áreas de trabajo. Su correcta aplicación permite mantener condiciones higiénicas adecuadas durante la producción.
+            p.mb-0 Los cuales describen de manera clara y detallada cómo realizar la limpieza y desinfección de equipos, utensilios y áreas de trabajo. Su correcta aplicación permite mantener condiciones higiénicas adecuadas durante la producción.
         .col-12.col-lg-4.mb-3.mb-lg-0.mt-4.mt-lg-0.pt-4.d-flex(data-aos="zoom-in-right")
           .tarjeta-icono-top.color-secundario-10.h-100
             .tarjeta-icono-top__icono
               figure
                 img(src='@/assets/curso/tema1/img_17.svg' alt='')
             h5.text-center.mb-3 HACCP (Análisis de Peligros y Puntos Críticos de Control)
-            p.mb-0 es una herramienta preventiva que permite identificar posibles riesgos en el proceso y establecer controles en puntos clave para evitar la contaminación del producto.
+            p.mb-0 Es una herramienta preventiva que permite identificar posibles riesgos en el proceso y establecer controles en puntos clave para evitar la contaminación del producto.
 
       .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-right")
         p.mb-0 Para que los POES y el HACCP funcionen de manera efectiva, es indispensable que las BPM estén correctamente implementadas. De esta manera, se logra un sistema integral que asegura la producción de alimentos inocuos, de calidad y aptos para el consumo.
