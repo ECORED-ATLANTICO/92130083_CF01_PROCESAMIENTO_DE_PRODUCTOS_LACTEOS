@@ -25,7 +25,7 @@
 
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/MNgw9Sk2mdw?si=l0oO6wgc5S3wVQo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MNgw9Sk2mdw?si=myrce3_-gaDaE5Em" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Procedimientos para la producción higiénica de derivados lácteos.
     Separador
 
