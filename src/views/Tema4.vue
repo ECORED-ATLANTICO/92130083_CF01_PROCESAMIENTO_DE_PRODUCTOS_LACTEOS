@@ -37,15 +37,15 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-7.order-2.order-lg-1.mb-0
           .tarjeta.color-primario-20.p-3.rounded-3.mb-3(data-aos="zoom-in-right")
-            p.mb-0 Protección: barrera contra contaminantes, luz, oxígeno, humedad.
+            p.mb-0 <b>Protección:</b> barrera contra contaminantes, luz, oxígeno, humedad.
           .tarjeta.color-primario-20.p-3.rounded-3.mb-3(data-aos="zoom-in-right")
-            p.mb-0 Conservación: prolonga la vida útil.
+            p.mb-0 <b>Conservación:</b> prolonga la vida útil.
           .tarjeta.color-primario-20.p-3.rounded-3.mb-3(data-aos="zoom-in-right")
-            p.mb-0 Información: rotulado nutricional, fecha de vencimiento, condiciones de almacenamiento.
+            p.mb-0 <b>Información:</b> rotulado nutricional, fecha de vencimiento, condiciones de almacenamiento.
           .tarjeta.color-primario-20.p-3.rounded-3.mb-3(data-aos="zoom-in-right")
-            p.mb-0 Facilidad de uso: manejo práctico.
+            p.mb-0 <b>Facilidad de uso:</b> manejo práctico.
           .tarjeta.color-primario-20.p-3.rounded-3.mb-0(data-aos="zoom-in-right")
-            p.mb-0 Promoción: identidad de marca.
+            p.mb-0 <b>Promoción:</b> identidad de marca.
         .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema4/img_3.png', class="img-fluid")
@@ -126,7 +126,7 @@
             div(titulo="Control previo del envasado:")
               p.mb-0 Antes del llenado, se debe verificar la integridad de los sellos y la ausencia de contaminación.
             div(titulo="Condiciones de conservación del producto:")
-              p.mb-0 El producto envasado se conserva según indicaciones: refrigeración (2 6 °C) para yogur y kumis; ambiente fresco (≤25 °C) para arequipe envasado asépticamente; refrigeración (0 4 °C) para mantequilla.
+              p.mb-0 El producto envasado se conserva según indicaciones: refrigeración (2 - 6 °C) para yogur y kumis; ambiente fresco (≤25 °C) para arequipe envasado asépticamente; refrigeración (0 - 4 °C) para mantequilla.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema4/img_5.png', class="img-fluid")

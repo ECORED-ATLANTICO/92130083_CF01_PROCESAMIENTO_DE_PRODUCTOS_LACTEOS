@@ -52,7 +52,7 @@ export default {
           },
           {
             numero: '1.3',
-            titulo: 'Principales normas en Colombia (visión práctica)',
+            titulo: 'Principales normas en Colombia',
             hash: 't_1_3',
           },
           {
@@ -131,7 +131,7 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Condiciones de almacenamiento',
+            titulo: 'Condiciones de almacenamiento y conservación',
             hash: 't_4_2',
           },
           {

@@ -68,7 +68,7 @@
                           i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
                           div
                             p.mb-0
-                              span Semidesnatado (1,5 3 %).
+                              span Semidesnatado (1,5 - 3 %).
                         li.mb-2.d-flex.align-items-start
                           i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
                           div
@@ -83,7 +83,7 @@
                       p.mb-2
                         strong Por aditivos:
                       ul.list-unstyled.ps-4
-                        li.mb-3.d-flex.align-items-start
+                        li.mb-2.d-flex.align-items-start
                           i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#93D5D4; font-size: 8px; margin-top: 6px;")
                           div
                             p.mb-0
@@ -165,7 +165,7 @@
             img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", aly="La figura 4 describe el Proceso de elaboración de un yogur batido: Recepción y estandarización: ajuste de grasa y sólidos no grasos (SNG) a valores deseados (ej. 3,2 % grasa, 8,5 % SNG). Se puede añadir leche en polvo para aumentar SNG. Pasteurización: 85‑95 °C durante 5‑10 minutos (PCC1). Objetivo: desnaturalizar proteínas (mejora viscosidad), eliminar patógenos y enzimas. Homogeneización: 150‑200 bar, 55‑65 °C, para romper glóbulos de grasa y evitar sinéresis. Enfriamiento: a 42‑45 °C, temperatura óptima de inoculación. Inoculación: agregar cultivo liofilizado o líquido (0,02‑0,05 % p/p). Se debe rehidratar según instrucciones. Fermentación: mantener a 42‑45 °C hasta pH 4,4‑4,6 (3‑5 horas) (PCC2 y PCC3). Control de acidez titulable cada hora. Enfriamiento rápido: descender a 4‑6 °C en menos de 2 horas (PCC4) para detener la fermentación. Adición de fruta (si aplica): mezclar en línea o en tanque. Si es fruta, debe estar pasteurizada y en condiciones asépticas. Envasado: en condiciones asépticas o higiénicas, con integridad de sellos. Almacenamiento: en refrigeración (2‑6 °C), con control de temperatura.").mb-3
             figcaption Nota. SENA, (2026).
 
-    p.mb-5(data-aos="zoom-in-right") A continuación, se presenta los puntos críticos de control (PCC) dentro del proceso productivo, donde es esencial aplicar medidas para prevenir, eliminar o reducir riesgos que puedan afectar la inocuidad del producto. Su identificación permite establecer límites, monitoreo y acciones correctivas, garantizando la calidad y seguridad alimentaria.
+    p.mb-5(data-aos="zoom-in-right") A continuación, se presenta los Puntos Críticos de Control (PCC) dentro del proceso productivo, donde es esencial aplicar medidas para prevenir, eliminar o reducir riesgos que puedan afectar la inocuidad del producto. Su identificación permite establecer límites, monitoreo y acciones correctivas, garantizando la calidad y seguridad alimentaria.
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-6.mb-4
@@ -225,12 +225,12 @@
             td.text-start Método de secado en estufa
           tr
             td.text-start Acidez titulable
-            td.text-start 0,6 1,2 % (ácido láctico)
+            td.text-start 0,6 - 1,2 % (ácido láctico)
             td.text-start Cada hora de fermentación
             td.text-start Titulación con NaOH 0,1 N
           tr
             td.text-start pH
-            td.text-start 4,4 4,6
+            td.text-start 4,4 - 4,6
             td.text-start Continuo
             td.text-start pH metro calibrado
           tr
@@ -240,7 +240,7 @@
             td.text-start Siembra en MRS y M17
           tr
             td.text-start Viscosidad.
-            td.text-start 2000 5000 cP (según tipo)
+            td.text-start 2000 - 5000 cP (según tipo)
             td.text-start Por lote
             td.text-start Viscosímetro rotacional
           tr
@@ -308,7 +308,7 @@
               span Presencia de levaduras y alcohol.
             li
               i.lista-ul__vineta-check.mb-2
-              span Menor pH (3,5 4,2) y mayor acidez.
+              span Menor pH (3,5 - 4,2) y mayor acidez.
             li
               i.lista-ul__vineta-check.mb-0
               span Mayor efervescencia.
@@ -399,10 +399,10 @@
               span Leche entera (100 partes).
             li
               i.lista-ul__vineta-check.mb-2
-              span Azúcar (20 30 partes).
+              span Azúcar (20 - 30 partes).
             li
               i.lista-ul__vineta-check.mb-2
-              span Bicarbonato de sodio (0,1 0,3 partes para ajustar pH y evitar corte).
+              span Bicarbonato de sodio (0,1 - 0,3 partes para ajustar pH y evitar corte).
             li
               i.lista-ul__vineta-check.mb-0
               span Opcional: glucosa (para evitar cristalización), vainilla, esencia de café.

@@ -231,28 +231,28 @@
                         div
                           p.mb-0
                             strong Hipoclorito de sodio (cloro):
-                            |  concentración 100 200 ppm, tiempo de contacto 5 10 minutos. Es económico y de amplio espectro, pero corrosivo y sensible a la materia orgánica.
+                            |  concentración 100 - 200 ppm, tiempo de contacto 5 10 minutos. Es económico y de amplio espectro, pero corrosivo y sensible a la materia orgánica.
                       
                       li.mb-3.d-flex.align-items-start
                         i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
                         div
                           p.mb-0
                             strong Amonios cuaternarios:
-                            |  200 400 ppm, 10 minutos. Dejan una película residual, no requieren enjuague en superficies no críticas.
+                            |  200 - 400 ppm, 10 minutos. Dejan una película residual, no requieren enjuague en superficies no críticas.
                       
                       li.mb-3.d-flex.align-items-start
                         i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
                         div
                           p.mb-0
                             strong Yodóforos:
-                            |  12,5 25 ppm, 2 5 minutos. Efectivos pero pueden manchar algunas superficies.
+                            |  12,5 - 25 ppm, 2 - 5 minutos. Efectivos pero pueden manchar algunas superficies.
                       
                       li.mb-0.d-flex.align-items-start
                         i.fa-solid.fa-circle.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 8px; margin-top: 6px;")
                         div
                           p.mb-0
                             strong Ácido peracético:
-                            |  100 200 ppm, 1 5 minutos. Activo a bajas temperaturas y se descompone en productos inocuos.
+                            |  100 - 200 ppm, 1 - 5 minutos. Activo a bajas temperaturas y se descompone en productos inocuos.
 
           .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure(data-aos="zoom-out-up")
@@ -350,23 +350,23 @@
           p.mb-3 Medidas de prevención:
           ul.lista-ul.lista-ul--check.m-0
             li
-              i.lista-ul__vineta-check.mb-2
-              span Separación física de áreas: recepción de leche cruda aislada de áreas de proceso.
+              i.lista-ul__vineta-check.mb-2 
+              span #[strong Separación física de áreas:] recepción de leche cruda aislada de áreas de proceso.
             li
               i.lista-ul__vineta-check.mb-2
-              span  Flujo unidireccional: materia prima → proceso → producto terminado.
+              span #[strong Flujo unidireccional:] materia prima → proceso → producto terminado.
             li
               i.lista-ul__vineta-check.mb-2
-              span <em>Color coding:</em> utensilios de diferentes colores para cada área.
+              span <em>#[strong Color coding:]</em> utensilios de diferentes colores para cada área.
             li
               i.lista-ul__vineta-check.mb-2
               span Limpieza y desinfección entre lotes, especialmente al cambiar de producto.
             li
               i.lista-ul__vineta-check.mb-2
-              span Control del personal: no transitar entre zonas sucias y limpias sin cambio de indumentaria y lavado de manos.
+              span #[strong Control del personal:] no transitar entre zonas sucias y limpias sin cambio de indumentaria y lavado de manos.
             li
               i.lista-ul__vineta-check.mb-2
-              span Control ambiental: presión positiva en salas limpias, filtros de aire.
+              span #[strong Control ambiental:] presión positiva en salas limpias, filtros de aire.
 
     p.mb-5(data-aos="zoom-in-right") La siguiente figura ilustra el flujo unidireccional en una planta láctea, un principio clave de las Buenas Prácticas de Manufactura que garantiza la inocuidad del proceso. Este flujo organiza las operaciones desde la recepción de la materia prima hasta el producto final, evitando cruces entre áreas limpias y sucias, reduciendo el riesgo de contaminación cruzada y asegurando condiciones higiénico-sanitarias adecuadas en cada etapa.
 
@@ -448,7 +448,7 @@
               .tarjeta--color-white.h-100
                 .tarjeta--08
                 h5.text-center.mb-3 Refrigerados
-                p.mb-3 Cámaras a 2 5 °C, con control de temperatura y humedad.
+                p.mb-3 Cámaras a 2 - 5 °C, con control de temperatura y humedad.
               .tarjeta--color-white.h-100
                 .tarjeta--09
                 h5.text-center.mb-3 Congelados

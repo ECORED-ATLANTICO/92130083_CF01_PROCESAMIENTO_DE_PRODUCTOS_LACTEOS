@@ -208,7 +208,7 @@
               span Condiciones de higiene.
             li
               i.lista-ul__vineta-check.mb-2
-              span Infrastructura y equipos.
+              span infraestructura y equipos.
             li
               i.lista-ul__vineta-check.mb-2
               span Manipulación de alimentos.

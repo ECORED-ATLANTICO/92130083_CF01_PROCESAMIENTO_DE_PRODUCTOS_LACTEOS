@@ -665,7 +665,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Múltiples materiales: plástico (PEAD, PET, PP), vidrio, <em>brick</em> multicapa, hojalata, entre otros.',
+                'Múltiples materiales: plástico (PEAD, PET, PP), vidrio, brick multicapa, hojalata, entre otros.',
               esCorrecta: true,
             },
             {
@@ -675,7 +675,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Se permiten múltiples materiales: plástico (PEAD, PET, PP), vidrio, <em>brick</em> multicapa, hojalata, entre otros.',
+            'Correcto. Se permiten múltiples materiales: plástico (PEAD, PET, PP), vidrio, brick multicapa, hojalata, entre otros.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
