@@ -57,7 +57,7 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
       
-      p.mb-3(data-aos="zoom-in-right") (Los quesos pueden considerarse dentro de esta cadena productiva, aunque su desarrollo corresponde a procesos específicos de otra línea de formación). 
+      p.mb-3(data-aos="zoom-in-right") Aunque los quesos forman parte de la cadena productiva láctea por ser productos derivados de la leche, su producción involucra procesos particulares que son abordados de manera específica en programas de formación orientados a la tecnología y elaboración de productos queseros y derivados lácteos. 
 
       .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-0
@@ -65,7 +65,7 @@
             figure
               img(src='@/assets/curso/tema1/img_8.svg', class="img-fluid")
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-            p.mb-0 Estos productos no solo representan tradición cultural en Colombia, sino que también tienen alto potencial económico y exportador, lo que exige el cumplimiento estricto de BPM para garantizar su calidad e inocuidad en toda la cadena productiva.
+            p.mb-0 Estos productos no solo representan tradición cultural en Colombia, sino que también tienen alto potencial económico y exportador, lo que exige el cumplimiento estricto de BPM (Buenas Prácticas de Manufactura) para garantizar su calidad e inocuidad en toda la cadena productiva.
 
     Separador
 
@@ -119,15 +119,11 @@
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Ley 9 de 1979 (Código Sanitario Nacional):")
               p.mb-0 Es la norma marco sanitaria en Colombia. En su Título V (“Alimentos”) establece las reglas para garantizar la inocuidad en la producción, procesamiento, transporte y comercialización de alimentos. Sirve de base legal para la inspección, vigilancia y control por parte del INVIMA y las autoridades de salud. 
-            div(titulo="Decreto 3075 de 1997 y Resolución 2674 de 2013 (condiciones sanitarias para alimentos):")
-              ul.list-unstyled.cita-decorada__texto.mb-3
-                li.d-flex.align-items-start.mb-0
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                  span #[strong Decreto 3075 de 1997:] reglamentó la Ley 9 y definió las condiciones sanitarias para fábricas de alimentos (instalaciones, higiene, agua, residuos, control de plagas, personal y equipos). Fue guía obligatoria por años.
-                li.d-flex.align-items-start.mb-0
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
-                  span #[strong Resolución 2674 de 2013:] norma vigente que actualiza los requisitos para elaborar y comercializar alimentos. Exige BPM, POES y regula notificación y registro sanitario.
-            div(titulo="Decreto 616 de 2006 (reglamentación técnica para leche y productos lácteos)")
+            div(titulo="Decreto 3075 de 1997:")
+              p.mb-0 Reglamentó la Ley 9 y definió las condiciones sanitarias para fábricas de alimentos (instalaciones, higiene, agua, residuos, control de plagas, personal y equipos). Fue guía obligatoria por años.
+            div(titulo="Resolución 2674 de 2013 (condiciones sanitarias para alimentos):")
+              p.mb-0 Norma vigente que actualiza los requisitos para elaborar y comercializar alimentos. Exige BPM, POES y regula notificación y registro sanitario.
+            div(titulo="Decreto 616 de 2006 (reglamentación técnica para leche y productos lácteos):")
               p.mb-0 Este decreto reglamenta la producción, procesamiento, transporte y comercialización de la leche cruda, leche pasteurizada y productos lácteos. Define las condiciones de calidad (fisicoquímicas y microbiológicas) que deben cumplir, así como los sistemas de control y vigilancia. Establece, entre otros: 
               ul.list-unstyled.cita-decorada__texto.mb-3
                 li.d-flex.align-items-start.mb-0
@@ -139,7 +135,7 @@
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:#F5C3C3; font-size: 15px; line-height: 1.5;").mb-0
                   span Los productos lácteos deben cumplir con especificaciones de composición y calidad microbiológica. 
-            div(titulo="Resolución 412 de 2014 (Sistema de inspección, vigilancia y control)")
+            div(titulo="Resolución 412 de 2014 (Sistema de inspección, vigilancia y control):")
               p.mb-0 Establece el sistema de inspección, vigilancia y control para la leche cruda y productos lácteos, incluyendo los requisitos para el registro de productores, procesadores y comercializadores, y los procedimientos de muestreo y análisis. Esta resolución fortalece la trazabilidad y la responsabilidad de cada eslabón de la cadena.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure

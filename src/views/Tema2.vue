@@ -175,7 +175,7 @@
       .h2(data-aos="fade-right") 2.3 Limpieza y desinfección (POES)
     .mb-0 
 
-    p.mb-5(data-aos="zoom-in-right") Los POES son procedimientos documentados que aseguran que la limpieza y desinfección se realicen de manera estandarizada. Cada equipo y área debe tener su POES, que incluya objetivo, responsable, frecuencia, EPP, insumos y procedimiento paso a paso.
+    p.mb-5(data-aos="zoom-in-right") Los POES (Procedimientos Operativos Estandarizados de Saneamiento) son procedimientos documentados que aseguran que la limpieza y desinfección se realicen de manera estandarizada. Cada equipo y área debe tener su POES, que incluya objetivo, responsable, frecuencia, EPP, insumos y procedimiento paso a paso.
 
     TabsB.color-adicional-1.mb-5
       .pt-4.pt-md-5.pb-4.p-5(titulo="Técnicas de limpieza: prelavado, lavado, enjuague" :icono="require('@/assets/curso/tema2/img_10.svg')")

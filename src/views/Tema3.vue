@@ -191,7 +191,7 @@
               img(src="@/assets/curso/tema3/img_11.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 PH final
-            p.mb-3 4,4 ‑ 4,6. Si es menor, hay sobre acidificación y sinéresis; si es mayor, textura débil y riesgo de contaminación.
+            p.mb-3 4,4 ‑ 4,6 °C. Si es menor, hay sobre acidificación y sinéresis; si es mayor, textura débil y riesgo de contaminación.
       .col-12.col-lg-6.mb-4.mb-lg-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -576,7 +576,7 @@
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla sin sal: 
-                p.mb-3 Solo contiene sal, ideal para repostería y preparaciones donde se controla el sodio. 
+                p.mb-3 Ideal para repostería y preparaciones donde se controla el sodio. 
               .tarjeta--color-white.h-100
                 .tarjeta--17
                 h5.text-center.mb-3 Mantequilla clarificada: 
