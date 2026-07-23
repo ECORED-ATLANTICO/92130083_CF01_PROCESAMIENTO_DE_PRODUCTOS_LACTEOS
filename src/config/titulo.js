@@ -1,2 +1,2 @@
 module.exports =
-  'Buenas Prácticas de Manufactura BPM, empaques y elaboración de derivados lácteos'
+  'Producción de derivados lácteos fermentados con base en BPM y normatividad'

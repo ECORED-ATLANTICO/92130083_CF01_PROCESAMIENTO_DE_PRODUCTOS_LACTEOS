@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Buenas Prácticas de Manufactura BPM, empaques y elaboración de derivados lácteos',
+      'Producción de derivados lácteos fermentados con base en BPM y normatividad',
     Description:
       'Este componente formativo aborda los fundamentos para la producción de derivados lácteos fermentados, integrando Buenas Prácticas de Manufactura (BPM), higiene, seguridad industrial y uso adecuado de envases. Incluye procesos tecnológicos para elaborar productos como yogur, kumis y mantequilla, junto con la normatividad colombiana, puntos críticos de control y técnicas de verificación para asegurar la inocuidad y calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),

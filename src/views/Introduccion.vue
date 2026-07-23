@@ -32,7 +32,7 @@
           figure.mb-2
             .video.mb-2
               iframe(width="560" height="315" src="https://www.youtube.com/embed/PUfayUlEAOo?si=RieZDB27sVVeY7CT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Buenas Prácticas de Manufactura BPM, empaque de s y elaboración de derivados lácteos.
+          figcaption Video: Producción de derivados lácteos fermentados con base en BPM y normatividad.
   
 </template>
 
